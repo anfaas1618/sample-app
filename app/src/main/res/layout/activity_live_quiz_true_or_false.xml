@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="liveQuizTrueOrFalseVM" type="com.application.app.modules.livequiztrueorfalse.data.viewmodel.LiveQuizTrueOrFalseVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linear52LiveQuiz"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStyledeep_purple_400">
+        <androidx.appcompat.widget.Toolbar android:gravity="start"
+            android:id="@+id/toolbarToolbar"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_52pxv"
+            android:layout_width="match_parent" app:contentInsetStart="0dp">
+            <LinearLayout android:id="@+id/linearTop"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/_23pxh"
+                android:layout_marginStart="@dimen/_24pxh"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <LinearLayout android:id="@+id/linearParticipant"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.19"
+                    android:layout_width="0dp"
+                    android:orientation="horizontal" style="@style/groupStyledeep_purple_4">
+                    <ImageView android:id="@+id/imageIcon"
+                        android:layout_height="@dimen/_16pxh"
+                        android:layout_marginBottom="@dimen/_9pxv"
+                        android:layout_marginStart="@dimen/_12pxh"
+                        android:layout_marginTop="@dimen/_9pxv"
+                        android:layout_width="@dimen/_16pxh"
+                        android:scaleType="fitXY" android:src="@drawable/img_icon_42"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txt1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_8pxv"
+                        android:layout_marginEnd="@dimen/_12pxh"
+                        android:layout_marginStart="@dimen/_4pxh"
+                        android:layout_marginTop="@dimen/_8pxv"
+                        android:layout_weight="0.27"
+                        android:layout_width="0dp"
+                        android:singleLine="true"
+                        android:text="@{liveQuizTrueOrFalseVM.liveQuizTrueOrFalseModel.txt1}"
+                        style="@style/txtRubikmedium12_4" tools:text="@string/lbl_1"/>
+                </LinearLayout>
+                <ProgressBar android:id="@+id/progressBarGroup253"
+                    android:indeterminate="false"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_15pxv"
+                    android:layout_marginStart="@dimen/_39pxh"
+                    android:layout_marginTop="@dimen/_15pxv"
+                    android:layout_weight="0.57"
+                    android:layout_width="0dp" android:max="100"
+                    android:minHeight="@dimen/_4pxv"
+                    android:progress="40"
+                    android:progressDrawable="@drawable/layer_list_bg_white_a700_6c_radius_24" style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+                <LinearLayout android:id="@+id/linearPoints"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_30pxh"
+                    android:layout_weight="0.23"
+                    android:layout_width="0dp"
+                    android:orientation="horizontal" style="@style/groupStyledeep_orange_300cornerRadius">
+                    <ImageView android:id="@+id/imageIcon1"
+                        android:layout_height="@dimen/_16pxh"
+                        android:layout_marginBottom="@dimen/_9pxv"
+                        android:layout_marginStart="@dimen/_12pxh"
+                        android:layout_marginTop="@dimen/_9pxv"
+                        android:layout_width="@dimen/_16pxh"
+                        android:scaleType="fitXY" android:src="@drawable/img_icon_38"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txt40"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_8pxv"
+                        android:layout_marginEnd="@dimen/_12pxh"
+                        android:layout_marginStart="@dimen/_4pxh"
+                        android:layout_marginTop="@dimen/_8pxv"
+                        android:layout_weight="0.5"
+                        android:layout_width="0dp"
+                        android:singleLine="true"
+                        android:text="@{liveQuizTrueOrFalseVM.liveQuizTrueOrFalseModel.txt40}"
+                        style="@style/txtRubikmedium12_4" tools:text="@string/lbl_40"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+        <LinearLayout android:id="@+id/linearContent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_8pxv"
+            android:layout_marginEnd="@dimen/_8pxh"
+            android:layout_marginStart="@dimen/_8pxh"
+            android:layout_marginTop="@dimen/_24pxv"
+            android:layout_width="match_parent"
+            android:orientation="vertical" style="@style/groupStylewhite_5">
+            <FrameLayout android:id="@+id/frameGroup1829"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="@dimen/_64pxv"
+                android:layout_marginEnd="@dimen/_16pxh"
+                android:layout_marginStart="@dimen/_16pxh"
+                android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_64pxh">
+                <FrameLayout android:background="@color/red_101"
+                    android:id="@+id/frameGroup254"
+                    android:layout_gravity="start"
+                    android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+                <TextView android:ellipsize="end" android:id="@+id/txt4"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_14pxv"
+                    android:layout_marginEnd="@dimen/_24pxh"
+                    android:layout_marginStart="@dimen/_24pxh"
+                    android:layout_marginTop="@dimen/_14pxv"
+                    android:layout_width="wrap_content"
+                    android:singleLine="true"
+                    android:text="@{liveQuizTrueOrFalseVM.liveQuizTrueOrFalseModel.txt4}"
+                    style="@style/txtRubikmedium24" tools:text="@string/lbl_4"/>
+            </FrameLayout>
+            <ImageView android:id="@+id/imageIllustration"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_250pxh"
+                android:layout_marginEnd="@dimen/_48pxh"
+                android:layout_marginStart="@dimen/_48pxh"
+                android:layout_marginTop="@dimen/_32pxv"
+                android:layout_width="@dimen/_247pxh"
+                android:scaleType="fitXY" android:src="@drawable/img_illustration_2"/>
+            <LinearLayout android:gravity="start"
+                android:id="@+id/linearQuestion"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_16pxh"
+                android:layout_marginStart="@dimen/_16pxh"
+                android:layout_marginTop="@dimen/_32pxv"
+                android:layout_width="match_parent" android:orientation="vertical">
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtQUESTION4OF1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_10pxh"
+                    android:layout_width="wrap_content"
+                    android:singleLine="true"
+                    android:text="@{liveQuizTrueOrFalseVM.liveQuizTrueOrFalseModel.txtQUESTION4OF1}"
+                    style="@style/txtRubikmedium14_3" tools:text="@string/msg_question_4_of_1"/>
+                <TextView android:id="@+id/txtTheodorusOfSa"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_8pxv"
+                    android:layout_width="match_parent"
+                    android:text="@{liveQuizTrueOrFalseVM.liveQuizTrueOrFalseModel.txtTheodorusOfSa}"
+                    style="@style/txtRubikmedium20" tools:text="@string/msg_theodorus_of_sa"/>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/linearFalseTrue"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_128pxv"
+                android:layout_marginEnd="@dimen/_16pxh"
+                android:layout_marginStart="@dimen/_16pxh"
+                android:layout_marginTop="@dimen/_24pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btnFalse"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:paddingBottom="@dimen/_16pxv"
+                    android:paddingEnd="@dimen/_30pxh"
+                    android:paddingStart="@dimen/_30pxh"
+                    android:paddingTop="@dimen/_16pxv"
+                    android:singleLine="true"
+                    android:text="@string/lbl_false"
+                    android:textAllCaps="false"
+                    style="@style/btnSolidRounded_6" tools:text="@string/lbl_false"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btnTrue"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_16pxh"
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:paddingBottom="@dimen/_16pxv"
+                    android:paddingEnd="@dimen/_30pxh"
+                    android:paddingStart="@dimen/_30pxh"
+                    android:paddingTop="@dimen/_16pxv"
+                    android:singleLine="true"
+                    android:text="@string/lbl_true"
+                    android:textAllCaps="false"
+                    style="@style/btnSolidRounded_7" tools:text="@string/lbl_true"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

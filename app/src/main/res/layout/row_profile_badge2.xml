@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="profileBadge2RowModel" type="com.application.app.modules.profilebadge.data.model.ProfileBadge2RowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearGroup"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:orientation="horizontal">
+        <FrameLayout android:id="@+id/frameGroup1735"
+            android:layout_height="@dimen/_88pxv" android:layout_width="@dimen/_88pxh">
+            <FrameLayout android:id="@+id/frameGroup1737"
+                android:layout_gravity="bottom|start"
+                android:layout_height="@dimen/_132pxv" android:layout_width="@dimen/_88pxh">
+                <ImageView android:id="@+id/imageStar"
+                    android:layout_gravity="top|start"
+                    android:layout_height="@dimen/_88pxh"
+                    android:layout_marginBottom="@dimen/_10pxv"
+                    android:layout_width="@dimen/_88pxh"
+                    android:scaleType="fitXY" android:src="@drawable/img_star_10"/>
+                <View
+                    android:background="@drawable/rectangle_bg_gray_50_radius_44"
+                    android:id="@+id/viewEllipse172"
+                    android:layout_gravity="bottom|start"
+                    android:layout_height="@dimen/_88pxh"
+                    android:layout_marginTop="@dimen/_10pxv" android:layout_width="@dimen/_88pxh"/>
+            </FrameLayout>
+            <FrameLayout android:id="@+id/frameEllipse173"
+                android:layout_gravity="center"
+                android:layout_height="@dimen/_44pxv"
+                android:layout_marginHorizontal="@dimen/_22pxh"
+                android:layout_marginVertical="@dimen/_22pxv"
+                android:layout_width="@dimen/_44pxh" style="@style/groupStylecyan_200cornerRadius">
+                <ImageView android:id="@+id/imageIcon"
+                    android:layout_gravity="center"
+                    android:layout_height="@dimen/_28pxh"
+                    android:layout_marginHorizontal="@dimen/_8pxh"
+                    android:layout_marginVertical="@dimen/_8pxv"
+                    android:layout_width="@dimen/_28pxh"
+                    android:scaleType="fitXY" android:src="@drawable/img_icon_27"/>
+            </FrameLayout>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/frameGroup1739"
+            android:layout_height="@dimen/_88pxv"
+            android:layout_marginStart="@dimen/_24pxh" android:layout_width="@dimen/_88pxh">
+            <FrameLayout android:id="@+id/frameGroup1741"
+                android:layout_gravity="bottom|start"
+                android:layout_height="@dimen/_132pxv" android:layout_width="@dimen/_88pxh">
+                <ImageView android:id="@+id/imageStar1"
+                    android:layout_gravity="top|start"
+                    android:layout_height="@dimen/_88pxh"
+                    android:layout_marginBottom="@dimen/_10pxv"
+                    android:layout_width="@dimen/_88pxh"
+                    android:scaleType="fitXY" android:src="@drawable/img_star_11"/>
+                <View
+                    android:background="@drawable/rectangle_bg_gray_51_radius_44"
+                    android:id="@+id/viewEllipse173"
+                    android:layout_gravity="bottom|start"
+                    android:layout_height="@dimen/_88pxh"
+                    android:layout_marginTop="@dimen/_10pxv" android:layout_width="@dimen/_88pxh"/>
+            </FrameLayout>
+            <FrameLayout android:id="@+id/frameEllipse174"
+                android:layout_gravity="center"
+                android:layout_height="@dimen/_44pxv"
+                android:layout_marginHorizontal="@dimen/_22pxh"
+                android:layout_marginVertical="@dimen/_22pxv"
+                android:layout_width="@dimen/_44pxh" style="@style/groupStyleorange_A100cornerRadius">
+                <ImageView android:id="@+id/imageIcon1"
+                    android:layout_gravity="center"
+                    android:layout_height="@dimen/_24pxh"
+                    android:layout_marginHorizontal="@dimen/_10pxh"
+                    android:layout_marginVertical="@dimen/_10pxv"
+                    android:layout_width="@dimen/_24pxh"
+                    android:scaleType="fitXY" android:src="@drawable/img_icon_28"/>
+            </FrameLayout>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/frameGroup1743"
+            android:layout_height="@dimen/_88pxv"
+            android:layout_marginStart="@dimen/_24pxh" android:layout_width="@dimen/_88pxh">
+            <FrameLayout android:id="@+id/frameGroup1745"
+                android:layout_gravity="bottom|start"
+                android:layout_height="@dimen/_132pxv" android:layout_width="@dimen/_88pxh">
+                <ImageView android:id="@+id/imageStar2"
+                    android:layout_gravity="top|start"
+                    android:layout_height="@dimen/_88pxh"
+                    android:layout_marginBottom="@dimen/_10pxv"
+                    android:layout_width="@dimen/_88pxh"
+                    android:scaleType="fitXY" android:src="@drawable/img_star_12"/>
+                <View
+                    android:background="@drawable/rectangle_bg_gray_52_radius_44"
+                    android:id="@+id/viewEllipse174"
+                    android:layout_gravity="bottom|start"
+                    android:layout_height="@dimen/_88pxh"
+                    android:layout_marginTop="@dimen/_10pxv" android:layout_width="@dimen/_88pxh"/>
+            </FrameLayout>
+            <FrameLayout android:id="@+id/frameEllipse175"
+                android:layout_gravity="center"
+                android:layout_height="@dimen/_44pxv"
+                android:layout_marginHorizontal="@dimen/_22pxh"
+                android:layout_marginVertical="@dimen/_22pxv"
+                android:layout_width="@dimen/_44pxh" style="@style/groupStyleblue_200cornerRadius">
+                <ImageView android:id="@+id/imageIcon2"
+                    android:layout_gravity="center"
+                    android:layout_height="@dimen/_28pxh"
+                    android:layout_marginHorizontal="@dimen/_8pxh"
+                    android:layout_marginVertical="@dimen/_8pxv"
+                    android:layout_width="@dimen/_28pxh"
+                    android:scaleType="fitXY" android:src="@drawable/img_icon_29"/>
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+</layout>

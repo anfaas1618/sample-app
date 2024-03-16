@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="txtRubikmedium24_2" parent="txtRubikmedium24">
+        <item name="android:textColor">@color/deep_purple_400</item>
+    </style>
+    <style name="txtRubikmedium24_1" parent="txtRubikmedium20">
+        <item name="android:textSize">@dimen/_24pxh</item>
+    </style>
+    <style name="txtRubikmedium24_3" parent="txtRubikmedium24">
+        <item name="android:textColor">@color/gray_901</item>
+    </style>
+    <style name="etSolidRounded_2" parent="etSolidRounded_1">
+        <item name="android:textColor">@color/bluegray_101</item>
+    </style>
+    <style name="txtGraphiksemibold100" parent="txtGraphikmedium16_1">
+        <item name="android:textSize">@dimen/_100pxh</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="groupStylecornerRadius">
+        <item name="android:background">@drawable/rectangle_border_gray_300_radius_12</item>
+    </style>
+    <style name="txtRubikmedium20_1" parent="txtRubikmedium20">
+        <item name="android:textColor">@color/white_A700</item>
+    </style>
+    <style name="groupStyledeep_orange_300cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_deep_orange_300_radius_12</item>
+    </style>
+    <style name="etSolidRounded_1" parent="etSolidRoundedOutline_1">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/gray_300</item>
+        <item name="android:fontFamily">@font/rubik</item>
+        <item name="android:background">@drawable/rectangle_bg_gray_900_68_radius_20</item>
+    </style>
+    <style name="txtGraphikmedium20" parent="txtGraphikmedium10">
+        <item name="android:textSize">@dimen/_20pxh</item>
+    </style>
+    <style name="txtGraphikregular16" parent="txtGraphikmedium16_1">
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="etRubikmedium16" parent="etRubikmedium14">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/gray_900</item>
+    </style>
+    <style name="groupStylered_101cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_red_101_radius_20</item>
+    </style>
+    <style name="txtGraphikmedium24" parent="txtGraphikmedium10">
+        <item name="android:textSize">@dimen/_24pxh</item>
+    </style>
+    <style name="etRubikmedium14">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/gray_900_87</item>
+        <item name="android:fontFamily">@font/rubik</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="groupStylewhite_A700">
+        <item name="android:background">@drawable/rectangle_bg_white_a700</item>
+    </style>
+    <style name="btnRounded">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/red_400</item>
+        <item name="android:fontFamily">@font/graphik</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+        <item name="android:background">@drawable/rectangle_radius_20</item>
+    </style>
+    <style name="groupStyledeep_purple_50">
+        <item name="android:background">@drawable/rectangle_bg_deep_purple_50</item>
+    </style>
+    <style name="txtGraphikregular12" parent="txtGraphikmedium12">
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtGraphikregular14" parent="txtGraphikmedium14_2">
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="groupStyleorange_100">
+        <item name="android:background">@drawable/rectangle_bg_orange_100</item>
+    </style>
+    <style name="groupStyleteal_50cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_teal_50_radius_28</item>
+    </style>
+    <style name="txtSolidRoundedOutline" parent="txtRubikmedium16_1">
+        <item name="android:background">@drawable/rectangle_bg_deep_purple_400_6c_border_deep_purple_50_6c_radius_20</item>
+    </style>
+    <style name="txtSolidRounded" parent="txtRubikmedium16_1">
+        <item name="android:background">@drawable/rectangle_bg_deep_purple_400_6c_radius_20</item>
+    </style>
+    <style name="groupStylered_300">
+        <item name="android:background">@drawable/rectangle_bg_red_300</item>
+    </style>
+    <style name="txtGraphiksemibold60" parent="txtGraphiksemibold100">
+        <item name="android:textSize">@dimen/_60pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/graphik</item>
+    </style>
+    <style name="groupStylepink_1">
+        <item name="android:background">@drawable/rectangle_bg_pink_a100_radius_20</item>
+    </style>
+    <style name="groupStyleteal_200cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_teal_200_radius_20</item>
+    </style>
+    <style name="txtGraphikregular14_1" parent="txtRubikregular14_3">
+        <item name="android:fontFamily">@font/graphik</item>
+    </style>
+    <style name="groupStyledeep_purple_50cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_deep_purple_50_radius_16</item>
+    </style>
+    <style name="groupStyleblue_200cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_blue_200_border_blue_300_radius_22</item>
+    </style>
+    <style name="txtGraphikmedium24_1" parent="txtGraphikmedium16_1">
+        <item name="android:textSize">@dimen/_24pxh</item>
+    </style>
+    <style name="groupStyledeep_purple_A100cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_deep_purple_a100_radius_28</item>
+    </style>
+    <style name="groupStyleblue_2">
+        <item name="android:background">@drawable/rectangle_bg_blue_100_radius_16</item>
+    </style>
+    <style name="groupStyleblue_1">
+        <item name="android:background">@drawable/rectangle_bg_blue_100_radius_20</item>
+    </style>
+    <style name="txtRubikmedium14_6" parent="txtRubikmedium14_2">
+        <item name="android:textColor">@color/white_A700_a2</item>
+    </style>
+    <style name="txtRubikmedium18_2" parent="txtRubikmedium24">
+        <item name="android:textSize">@dimen/_18pxh</item>
+    </style>
+    <style name="groupStyledeep_purple_400_19cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_deep_purple_400_19_radius_8</item>
+    </style>
+    <style name="txtNunitoextrabold36" parent="txtNunitobold22">
+        <item name="android:textSize">@dimen/_36pxh</item>
+        <item name="android:textFontWeight" tools:targetApi="p">800</item>
+    </style>
+    <style name="groupStylegray_100_b2cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_gray_100_b2_radius_8</item>
+    </style>
+    <style name="txtRubikmedium14_1" parent="txtRubikregular14_3">
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="txtRubikregular14" parent="txtRubikregular14_4">
+        <item name="android:textColor">@color/bluegray_400</item>
+    </style>
+    <style name="txtRubikmedium14_5" parent="txtRubikmedium14_2">
+        <item name="android:textColor">@color/pink_900_87</item>
+    </style>
+    <style name="txtRubikmedium18_1" parent="txtRubikmedium16_3">
+        <item name="android:textSize">@dimen/_18pxh</item>
+    </style>
+    <style name="txtRubikmedium14_4" parent="txtRubikbold14">
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="txtRubikmedium14_3" parent="txtGraphikmedium14_2">
+        <item name="android:fontFamily">@font/rubik</item>
+    </style>
+    <style name="txtRubikregular12" parent="txtRubikregular16_1">
+        <item name="android:textSize">@dimen/_12pxh</item>
+    </style>
+    <style name="txtRubikmedium14_2" parent="txtRubikregular16_2">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="groupStylered_100cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_red_100_radius_28</item>
+    </style>
+    <style name="groupStylegray_300">
+        <item name="android:background">@drawable/rectangle_bg_gray_300</item>
+    </style>
+    <style name="groupStyledeep_purple_1">
+        <item name="android:background">@drawable/rectangle_bg_deep_purple_a100_radius_48</item>
+    </style>
+    <style name="groupStylewhite_A700cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_radius_20</item>
+    </style>
+    <style name="txtRubikbold32_1" parent="txtRubikbold32">
+        <item name="android:textColor">@color/gray_900</item>
+        <item name="android:fontFamily">@font/rubik</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="groupStyleorange_A100cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_orange_a100_border_amber_a200_radius_22</item>
+    </style>
+    <style name="txtGraphikmedium16" parent="txtGraphikmedium10">
+        <item name="android:textSize">@dimen/_16pxh</item>
+    </style>
+    <style name="groupStylelight_blue_900cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_light_blue_900_radius_20</item>
+    </style>
+    <style name="txtGraphikmedium14" parent="txtGraphikmedium14_1">
+        <item name="android:textColor">@color/white_A700_99</item>
+    </style>
+    <style name="groupStyledeep_purple_6">
+        <item name="android:background">@drawable/rectangle_bg_deep_purple_300_radius_20</item>
+    </style>
+    <style name="txtGraphikmedium16_1" parent="txtGraphikmedium16">
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/graphik</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="txtRubikbold14" parent="txtRubikregular14_4">
+        <item name="android:textColor">@color/deep_purple_400</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="groupStyledeep_purple_4">
+        <item name="android:background">@drawable/rectangle_bg_deep_purple_300_radius_12</item>
+    </style>
+    <style name="groupStyledeep_purple_400_6ccornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_deep_purple_400_6c_radius_16</item>
+    </style>
+    <style name="groupStyledeep_purple_5">
+        <item name="android:background">@drawable/rectangle_bg_deep_purple_50_border_deep_purple_50_radius_20</item>
+    </style>
+    <style name="txtRubikbold16" parent="txtRubikregular16_2">
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="txtGraphikmedium18" parent="txtGraphikmedium10">
+        <item name="android:textSize">@dimen/_18pxh</item>
+    </style>
+    <style name="groupStyledeep_purple_2">
+        <item name="android:background">@drawable/rectangle_bg_deep_purple_300_border_deep_purple_400_radius_22</item>
+    </style>
+    <style name="groupStyledeep_purple_3">
+        <item name="android:background">@drawable/rectangle_bg_deep_purple_50_radius_20</item>
+    </style>
+    <style name="txtRubikregular16" parent="txtRubikregular16_2">
+        <item name="android:textColor">@color/bluegray_700</item>
+    </style>
+    <style name="txtRubikregular14_1" parent="txtRubikregular14_4">
+        <item name="android:textColor">@color/gray_900_87</item>
+    </style>
+    <style name="txtGraphikmedium12" parent="txtGraphikmedium10">
+        <item name="android:textSize">@dimen/_12pxh</item>
+    </style>
+    <style name="groupStyleindigo_A101cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_indigo_a101_radius_20</item>
+    </style>
+    <style name="txtRubikregular14_2" parent="txtRubikregular16_2">
+        <item name="android:textSize">@dimen/_14pxh</item>
+    </style>
+    <style name="txtGraphikmedium10" parent="txtRubikmedium20">
+        <item name="android:textSize">@dimen/_10pxh</item>
+        <item name="android:fontFamily">@font/graphik</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="txtRubikregular14_3">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/rubik</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="btnRounded_1" parent="btnRounded">
+        <item name="android:textColor">@color/bluegray_400</item>
+    </style>
+    <style name="groupStyleindigo_A100cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_indigo_a100_radius_20</item>
+    </style>
+    <style name="txtRubikregular14_4" parent="txtRubikregular14_3">
+        <item name="android:textColor">@color/red_400</item>
+    </style>
+    <style name="txtNunitobold22" parent="txtRubikbold16">
+        <item name="android:textSize">@dimen/_22pxh</item>
+        <item name="android:fontFamily">@font/nunito</item>
+    </style>
+    <style name="groupStylewhite_10">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_radius_tl_32_tr_32</item>
+    </style>
+    <style name="txtRubikregular12_1" parent="txtRubikregular12_4">
+        <item name="android:textColor">@color/white_A700_cc</item>
+    </style>
+    <style name="txtRubikregular12_2" parent="txtRubikregular12_4">
+        <item name="android:textColor">@color/deep_purple_400_9e</item>
+    </style>
+    <style name="btnSolidRounded_9" parent="btnSolidRounded_10">
+        <item name="android:background">@drawable/rectangle_bg_deep_purple_400_radius_2</item>
+    </style>
+    <style name="groupStylegray_401cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_gray_401_radius_8</item>
+    </style>
+    <style name="txtGraphiksemibold80" parent="txtGraphiksemibold60">
+        <item name="android:textSize">@dimen/_80pxh</item>
+    </style>
+    <style name="btnSolidRounded_4" parent="btnSolidRounded_14">
+        <item name="android:background">@drawable/rectangle_bg_deep_purple_400_radius_20</item>
+    </style>
+    <style name="btnSolidRounded_3" parent="btnSolidRounded_12">
+        <item name="android:background">@drawable/rectangle_bg_pink_300_radius_8</item>
+    </style>
+    <style name="btnSolidRounded_2" parent="btnSolidRounded_12">
+        <item name="android:background">@drawable/rectangle_bg_green_a200_radius_8</item>
+    </style>
+    <style name="groupStylegray_402cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_gray_402_border_gray_500_radius_22</item>
+    </style>
+    <style name="btnSolidRounded_1" parent="btnRounded">
+        <item name="android:textSize">@dimen/_24pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:background">@drawable/rectangle_bg_deep_orange_300_radius_20</item>
+    </style>
+    <style name="btnSolidRounded_8" parent="btnSolidRounded_11">
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+        <item name="android:background">@drawable/rectangle_bg_deep_purple_400_radius_8</item>
+    </style>
+    <style name="btnSolidRounded_7" parent="btnSolidRounded_14">
+        <item name="android:background">@drawable/rectangle_bg_green_400_radius_20</item>
+    </style>
+    <style name="btnSolidRounded_6" parent="btnSolidRounded_14">
+        <item name="android:background">@drawable/rectangle_bg_red_a200_radius_20</item>
+    </style>
+    <style name="groupStylewhite_11">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_border_gray_300_radius_20</item>
+    </style>
+    <style name="btnSolidRounded_5" parent="btnSolidRounded_14">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_4c_radius_20</item>
+    </style>
+    <style name="groupStyledeep_purple_600cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_deep_purple_600_radius_12</item>
+    </style>
+    <style name="txtRubikmedium14" parent="txtRubikregular14_1">
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="txtRubikmedium16" parent="txtRubikbold16">
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="txtRubikmedium18" parent="txtRubikmedium20">
+        <item name="android:textSize">@dimen/_18pxh</item>
+    </style>
+    <style name="groupStylebluegray_100">
+        <item name="android:background">@drawable/rectangle_bg_bluegray_100</item>
+    </style>
+    <style name="groupStylebluegray_900">
+        <item name="android:background">@drawable/rectangle_bg_bluegray_900</item>
+    </style>
+    <style name="txtRubikmedium12" parent="txtRubikmedium12_4">
+        <item name="android:textColor">@color/bluegray_400</item>
+    </style>
+    <style name="btnSolidRoundedOutline" parent="btnSolidRounded_14">
+        <item name="android:textColor">@color/gray_900</item>
+        <item name="android:fontFamily">@font/rubik</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+        <item name="android:background">@drawable/rectangle_bg_deep_purple_50_border_blue_800_33_radius_20</item>
+    </style>
+    <style name="etSolidRounded" parent="etSolidRoundedOutline_2">
+        <item name="android:background">@drawable/rectangle_bg_deep_purple_50_radius_20</item>
+    </style>
+    <style name="groupStylecornerRadius_3">
+        <item name="android:background">@drawable/rectangle_border_white_a700_87_radius_12</item>
+    </style>
+    <style name="groupStylecornerRadius_2">
+        <item name="android:background">@drawable/rectangle_radius_4</item>
+    </style>
+    <style name="btnSolidRounded" parent="btnSolidRounded_12">
+        <item name="android:background">@drawable/rectangle_bg_deep_purple_300_radius_12</item>
+    </style>
+    <style name="groupStylegray_400">
+        <item name="android:background">@drawable/rectangle_bg_gray_400</item>
+    </style>
+    <style name="groupStyledeep_orange_202cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_deep_orange_202_radius_20</item>
+    </style>
+    <style name="groupStylegray_401">
+        <item name="android:background">@drawable/rectangle_bg_gray_401</item>
+    </style>
+    <style name="groupStylecornerRadius_1">
+        <item name="android:background">@drawable/rectangle_radius_4</item>
+    </style>
+    <style name="groupStylewhite_1">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_border_deep_purple_50_radius_12</item>
+    </style>
+    <style name="groupStylewhite_3">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_radius_16</item>
+    </style>
+    <style name="groupStylewhite_2">
+        <item name="android:background">@drawable/rectangle_bg_white_a700</item>
+    </style>
+    <style name="etSolidRoundedOutline" parent="etRubikmedium16">
+        <item name="android:fontFamily">@font/rubik</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+        <item name="android:background">@drawable/rectangle_bg_white_a700_border_deep_purple_50_radius_20</item>
+    </style>
+    <style name="groupStylewhite_5">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_radius_32</item>
+    </style>
+    <style name="groupStylewhite_4">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_radius_tl_20_tr_20</item>
+    </style>
+    <style name="groupStylewhite_7">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_border_deep_purple_50_radius_12</item>
+    </style>
+    <style name="groupStylewhite_6">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_border_deep_purple_50_radius_20</item>
+    </style>
+    <style name="btnSolidRounded_11" parent="btnSolidRounded_14">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:background">@drawable/rectangle_bg_gray_900_radius_16</item>
+    </style>
+    <style name="groupStylewhite_9">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_radius_12</item>
+    </style>
+    <style name="btnSolidRounded_10" parent="btnSolidRounded_1">
+        <item name="android:textSize">@dimen/_8pxh</item>
+        <item name="android:fontFamily">@font/graphik</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+        <item name="android:background">@drawable/rectangle_bg_blue_100_radius_2</item>
+    </style>
+    <style name="groupStylewhite_8">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_radius_24</item>
+    </style>
+    <style name="btnSolidRounded_13" parent="btnSolidRoundedOutline_1">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+        <item name="android:background">@drawable/rectangle_bg_gray_300_radius_20</item>
+    </style>
+    <style name="btnSolidRounded_12" parent="btnSolidRounded_13">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/rubik</item>
+        <item name="android:background">@drawable/rectangle_bg_pink_a100_radius_8</item>
+    </style>
+    <style name="groupStyledeep_orange_201">
+        <item name="android:background">@drawable/rectangle_bg_deep_orange_201</item>
+    </style>
+    <style name="btnSolidRounded_14" parent="btnSolidRounded_12">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+        <item name="android:background">@drawable/rectangle_bg_deep_purple_400_radius_20</item>
+    </style>
+    <style name="txtRubikbold32" parent="txtRubikbold16">
+        <item name="android:textSize">@dimen/_32pxh</item>
+    </style>
+    <style name="groupStyleblue_100cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_blue_100_radius_28</item>
+    </style>
+    <style name="groupStylepink_A100cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_pink_a100_border_pink_301_radius_22</item>
+    </style>
+    <style name="groupStylered_101">
+        <item name="android:background">@drawable/rectangle_bg_red_101</item>
+    </style>
+    <style name="btnSolidRoundedOutline_1" parent="btnRounded">
+        <item name="android:textColor">@color/deep_purple_400</item>
+        <item name="android:fontFamily">@font/rubik</item>
+        <item name="android:background">@drawable/rectangle_bg_white_a700_border_deep_purple_400_33_radius_20</item>
+    </style>
+    <style name="btnSolidRoundedOutline_2" parent="btnSolidRoundedOutline">
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+        <item name="android:background">@drawable/rectangle_bg_white_a700_border_deep_purple_50_radius_16</item>
+    </style>
+    <style name="groupStyledeep_purple_400cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_deep_purple_400_radius_20</item>
+    </style>
+    <style name="txtGraphikregular16_1" parent="txtRubikregular16_1">
+        <item name="android:fontFamily">@font/graphik</item>
+    </style>
+    <style name="etSolidRoundedOutline_3" parent="etSolidRounded_1">
+        <item name="android:textColor">@color/red_A200</item>
+        <item name="android:background">@drawable/rectangle_bg_white_a700_border_red_a200_radius_16</item>
+    </style>
+    <style name="etSolidRoundedOutline_2" parent="etSolidRoundedOutline_1">
+        <item name="android:textColor">@color/bluegray_400</item>
+    </style>
+    <style name="groupStyleindigo_50cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_indigo_50_radius_20</item>
+    </style>
+    <style name="etSolidRoundedOutline_1" parent="etSolidRoundedOutline">
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtregular20">
+        <item name="android:textSize">@dimen/_20pxh</item>
+        <item name="android:textColor">@color/black_900</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="groupStyledeep_purple_300cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_deep_purple_300_radius_tl_20_tr_20</item>
+    </style>
+    <style name="groupStyledeep_purple_400_1">
+        <item name="android:background">@drawable/rectangle_bg_deep_purple_400_6c_border_deep_purple_50_6c_radius_20</item>
+    </style>
+    <style name="groupStyledeep_purple_400">
+        <item name="android:background">@drawable/rectangle_bg_deep_purple_400</item>
+    </style>
+    <style name="txtRubikmedium12_3" parent="txtRubikmedium20">
+        <item name="android:textSize">@dimen/_12pxh</item>
+    </style>
+    <style name="txtRubikmedium12_2" parent="txtRubikmedium12_4">
+        <item name="android:textColor">@color/white_A700_87</item>
+    </style>
+    <style name="groupStylegray_900">
+        <item name="android:background">@drawable/rectangle_bg_gray_900</item>
+    </style>
+    <style name="txtRubikmedium12_1" parent="txtRubikmedium12_4">
+        <item name="android:textColor">@color/gray_300</item>
+    </style>
+    <style name="txtregular16">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/bluegray_401</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtRubikmedium16_3" parent="txtRubikmedium16_1">
+        <item name="android:textColor">@color/pink_900</item>
+    </style>
+    <style name="txtRubikmedium16_2" parent="txtRubikmedium12_5">
+        <item name="android:textSize">@dimen/_16pxh</item>
+    </style>
+    <style name="txtRubikmedium12_6" parent="txtRubikmedium12_4">
+        <item name="android:textColor">@color/red_100</item>
+    </style>
+    <style name="txtRubikmedium16_1" parent="txtRubikregular16_2">
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="txtRubikmedium12_5" parent="txtRubikmedium12_4">
+        <item name="android:textColor">@color/deep_purple_400</item>
+    </style>
+    <style name="txtRubikmedium12_4" parent="txtRubikregular14_3">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="txtRubikmedium24" parent="txtRubikmedium12_4">
+        <item name="android:textSize">@dimen/_24pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/rubik</item>
+    </style>
+    <style name="groupStylegray_900_75cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_gray_900_75_radius_20</item>
+    </style>
+    <style name="txtGraphikmedium14_2" parent="txtGraphikmedium14_1">
+        <item name="android:textColor">@color/bluegray_400</item>
+    </style>
+    <style name="groupStylepink_50cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_pink_50_radius_20</item>
+    </style>
+    <style name="txtGraphikmedium14_1" parent="txtGraphikmedium10">
+        <item name="android:textSize">@dimen/_14pxh</item>
+    </style>
+    <style name="groupStylegreen_400cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_green_400_radius_16</item>
+    </style>
+    <style name="txtRubikregular16_3" parent="txtRubikregular16_2">
+        <item name="android:textColor">@color/red_A200</item>
+    </style>
+    <style name="txtRubikregular16_4" parent="txtRubikregular16_2">
+        <item name="android:textColor">@color/gray_300</item>
+    </style>
+    <style name="txtRubikregular16_5" parent="txtRubikregular16_2">
+        <item name="android:textColor">@color/bluegray_101</item>
+    </style>
+    <style name="txtRubikregular16_6" parent="txtRubikregular16_2">
+        <item name="android:textColor">@color/gray_300_99</item>
+    </style>
+    <style name="txtRubikregular12_3" parent="txtRubikregular16_2">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/pink_900</item>
+    </style>
+    <style name="txtRubikmedium20" parent="txtRubikmedium14_2">
+        <item name="android:textSize">@dimen/_20pxh</item>
+        <item name="android:textColor">@color/gray_900</item>
+        <item name="android:fontFamily">@font/rubik</item>
+    </style>
+    <style name="txtRubikregular12_4" parent="txtRubikregular12_3">
+        <item name="android:textColor">@color/white_A700_b2</item>
+        <item name="android:fontFamily">@font/rubik</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtRubikregular16_1" parent="txtRubikregular14_4">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/bluegray_400</item>
+    </style>
+    <style name="groupStylecyan_200cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_cyan_200_border_green_a201_radius_22</item>
+    </style>
+    <style name="txtRubikregular16_2" parent="txtRubikregular16_1">
+        <item name="android:textColor">@color/gray_900</item>
+        <item name="android:fontFamily">@font/rubik</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+</resources>

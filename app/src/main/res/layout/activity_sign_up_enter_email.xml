@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="signUpEnterEmailVM" type="com.application.app.modules.signupenteremail.data.viewmodel.SignUpEnterEmailVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linear241SignUp"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStyledeep_purple_50">
+        <androidx.appcompat.widget.Toolbar android:gravity="start"
+            android:id="@+id/toolbarToolbar"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_60pxv"
+            android:layout_width="match_parent" app:contentInsetStart="0dp">
+            <LinearLayout android:gravity="start"
+                android:id="@+id/linearWhatsyourema"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/_79pxh"
+                android:layout_marginStart="@dimen/_24pxh"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <ImageView android:id="@+id/imageIcon"
+                    android:layout_height="@dimen/_24pxh"
+                    android:layout_marginBottom="@dimen/_6pxv"
+                    android:layout_marginTop="@dimen/_6pxv"
+                    android:layout_width="@dimen/_24pxh"
+                    android:scaleType="fitXY" android:src="@drawable/img_icon_2"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtWhatsYourEma"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_33pxh"
+                    android:layout_weight="0.9"
+                    android:layout_width="0dp" android:singleLine="true"
+                    android:text="@{signUpEnterEmailVM.signUpEnterEmailModel.txtWhatsYourEma}"
+                    style="@style/txtRubikmedium24_1" tools:text="@string/msg_what_s_your_ema"/>
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearEmail"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_24pxh"
+            android:layout_marginStart="@dimen/_24pxh"
+            android:layout_marginTop="@dimen/_24pxv"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtEmailAddress"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@{signUpEnterEmailVM.signUpEnterEmailModel.txtEmailAddress}"
+                style="@style/txtRubikregular14_2" tools:text="@string/lbl_email_address"/>
+            <EditText
+                android:background="@drawable/rectangle_bg_white_a700_border_deep_purple_50_radius_20"
+                android:drawablePadding="@dimen/_10pxh"
+                android:drawableStart="@drawable/img_icon_90"
+                android:ellipsize="end"
+                android:hint="@string/msg_your_email_addr"
+                android:id="@+id/etYourEmailAddr"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8pxv"
+                android:layout_width="match_parent"
+                android:paddingBottom="@dimen/_20pxv"
+                android:paddingStart="@dimen/_16pxh"
+                android:paddingTop="@dimen/_20pxv"
+                android:singleLine="true"
+                android:text="@={signUpEnterEmailVM.signUpEnterEmailModel.etYourEmailAddrValue}"
+                android:textColorHint="@color/bluegray_400" style="@style/etSolidRoundedOutline_2"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="end"
+            android:id="@+id/linearSteps"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_24pxh"
+            android:layout_marginStart="@dimen/_24pxh"
+            android:layout_marginTop="@dimen/_173pxv"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <TextView android:ellipsize="end" android:id="@+id/txt1Of3"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@{signUpEnterEmailVM.signUpEnterEmailModel.txt1Of3}"
+                style="@style/txtRubikmedium16_2" tools:text="@string/lbl_1_of_3"/>
+            <ProgressBar android:gravity="start"
+                android:id="@+id/progressBarGroup377"
+                android:indeterminate="false"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8pxv"
+                android:layout_width="match_parent" android:max="100"
+                android:minHeight="@dimen/_8pxv" android:progress="33"
+                android:progressDrawable="@drawable/layer_list_bg_deep_purple_400_63_radius_8" style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:ellipsize="end" android:gravity="center"
+            android:id="@+id/btnResetPassword"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_24pxh"
+            android:layout_marginStart="@dimen/_24pxh"
+            android:layout_marginTop="@dimen/_24pxv"
+            android:layout_width="match_parent"
+            android:paddingBottom="@dimen/_16pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingStart="@dimen/_30pxh"
+            android:paddingTop="@dimen/_16pxv" android:singleLine="true"
+            android:text="@string/lbl_reset_password"
+            android:textAllCaps="false" style="@style/btnSolidRounded_4" tools:text="@string/lbl_reset_password"/>
+    </LinearLayout>
+</layout>

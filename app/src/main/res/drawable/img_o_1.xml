@@ -1,0 +1,40 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="466dp"
+        android:height="503dp"
+        android:viewportWidth="466.0"
+        android:viewportHeight="503.0">
+    <path
+        android:pathData="M98.9,458.3C130.9,458.3 156.8,432.4 156.8,400.4C156.8,368.5 130.9,342.6 98.9,342.6C67,342.6 41.1,368.5 41.1,400.4C41.1,432.4 67,458.3 98.9,458.3Z"
+        android:fillAlpha="0.1"
+        android:fillColor="#C4D0FB"
+        android:strokeAlpha="0.1"/>
+    <path
+        android:strokeWidth="1"
+        android:pathData="M100.5,502C155.7,502 200.5,457.2 200.5,402C200.5,346.8 155.7,302 100.5,302C45.3,302 0.5,346.8 0.5,402C0.5,457.2 45.3,502 100.5,502Z"
+        android:fillAlpha="0.3"
+        android:strokeColor="#C4D0FB"
+        android:fillColor="#00000000"
+        android:strokeAlpha="0.3"/>
+    <path
+        android:pathData="M363.9,295.3C395.9,295.3 421.8,269.4 421.8,237.4C421.8,205.5 395.9,179.6 363.9,179.6C332,179.6 306.1,205.5 306.1,237.4C306.1,269.4 332,295.3 363.9,295.3Z"
+        android:fillAlpha="0.1"
+        android:fillColor="#C4D0FB"
+        android:strokeAlpha="0.1"/>
+    <path
+        android:strokeWidth="1"
+        android:pathData="M365.5,339C420.7,339 465.5,294.2 465.5,239C465.5,183.8 420.7,139 365.5,139C310.3,139 265.5,183.8 265.5,239C265.5,294.2 310.3,339 365.5,339Z"
+        android:fillAlpha="0.3"
+        android:strokeColor="#C4D0FB"
+        android:fillColor="#00000000"
+        android:strokeAlpha="0.3"/>
+    <path
+        android:pathData="M83.5,32C92.3,32 99.5,24.8 99.5,16C99.5,7.2 92.3,0 83.5,0C74.7,0 67.5,7.2 67.5,16C67.5,24.8 74.7,32 83.5,32Z"
+        android:fillAlpha="0.1"
+        android:fillColor="#C4D0FB"
+        android:strokeAlpha="0.1"/>
+    <path
+        android:pathData="M321.5,362C327,362 331.5,357.5 331.5,352C331.5,346.5 327,342 321.5,342C316,342 311.5,346.5 311.5,352C311.5,357.5 316,362 321.5,362Z"
+        android:fillAlpha="0.2"
+        android:fillColor="#C4D0FB"
+        android:strokeAlpha="0.2"/>
+</vector>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="loginSignUpOptionsVM" type="com.application.app.modules.loginsignupoptions.data.viewmodel.LoginSignUpOptionsVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearGroup2177"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStyledeep_purple_400">
+        <FrameLayout android:gravity="start"
+            android:id="@+id/frameGroup2178"
+            android:layout_height="@dimen/_736pxv"
+            android:layout_marginBottom="@dimen/_16pxv"
+            android:layout_marginTop="@dimen/_60pxv" android:layout_width="match_parent">
+            <FrameLayout android:id="@+id/frameGroup2180"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_736pxv" android:layout_width="match_parent">
+                <FrameLayout android:id="@+id/frameGroup2182"
+                    android:layout_gravity="top|start"
+                    android:layout_height="@dimen/_591pxv"
+                    android:layout_marginBottom="@dimen/_10pxv" android:layout_width="match_parent">
+                    <ImageView android:id="@+id/imageO"
+                        android:layout_gravity="bottom|start"
+                        android:layout_height="@dimen/_551pxv"
+                        android:layout_marginTop="@dimen/_10pxv"
+                        android:layout_width="match_parent"
+                        android:scaleType="fitXY" android:src="@drawable/img_o_2"/>
+                    <LinearLayout android:id="@+id/linearAppLogo"
+                        android:layout_gravity="top|center"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_10pxv"
+                        android:layout_marginEnd="@dimen/_150pxh"
+                        android:layout_marginStart="@dimen/_150pxh"
+                        android:layout_width="match_parent" android:orientation="vertical">
+                        <ImageView android:id="@+id/imageLogo"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_height="@dimen/_56pxh"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginStart="@dimen/_9pxh"
+                            android:layout_width="@dimen/_56pxh"
+                            android:scaleType="fitXY" android:src="@drawable/img_logo"/>
+                        <TextView android:ellipsize="end"
+                            android:gravity="start"
+                            android:id="@+id/txtQueezy"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_16pxv"
+                            android:layout_width="match_parent"
+                            android:singleLine="true"
+                            android:text="@{loginSignUpOptionsVM.loginSignUpOptionsModel.txtQueezy}"
+                            style="@style/txtNunitobold22" tools:text="@string/lbl_queezy"/>
+                    </LinearLayout>
+                </FrameLayout>
+                <LinearLayout android:id="@+id/linearGroup2175"
+                    android:layout_gravity="bottom|center"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_16pxh"
+                    android:layout_marginStart="@dimen/_16pxh"
+                    android:layout_marginTop="@dimen/_10pxv"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical" style="@style/groupStylewhite_A700cornerRadius">
+                    <TextView android:ellipsize="end"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/txtLoginOrSignU"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_16pxh"
+                        android:layout_marginStart="@dimen/_16pxh"
+                        android:layout_marginTop="@dimen/_16pxv"
+                        android:layout_width="match_parent"
+                        android:singleLine="true"
+                        android:text="@{loginSignUpOptionsVM.loginSignUpOptionsModel.txtLoginOrSignU}"
+                        style="@style/txtRubikmedium24_3" tools:text="@string/msg_login_or_sign_u"/>
+                    <TextView android:gravity="center_horizontal"
+                        android:id="@+id/txtLoginOrCreate"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_16pxh"
+                        android:layout_marginStart="@dimen/_16pxh"
+                        android:layout_marginTop="@dimen/_8pxv"
+                        android:layout_width="match_parent"
+                        android:text="@{loginSignUpOptionsVM.loginSignUpOptionsModel.txtLoginOrCreate}"
+                        style="@style/txtRubikregular16_1" tools:text="@string/msg_login_or_create"/>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:ellipsize="end" android:gravity="center"
+                        android:id="@+id/btnLogin"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_16pxh"
+                        android:layout_marginStart="@dimen/_16pxh"
+                        android:layout_marginTop="@dimen/_24pxv"
+                        android:layout_width="match_parent"
+                        android:paddingBottom="@dimen/_16pxv"
+                        android:paddingEnd="@dimen/_30pxh"
+                        android:paddingStart="@dimen/_30pxh"
+                        android:paddingTop="@dimen/_16pxv"
+                        android:singleLine="true"
+                        android:text="@string/lbl_login"
+                        android:textAllCaps="false"
+                        style="@style/btnSolidRounded_4" tools:text="@string/lbl_login"/>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:ellipsize="end" android:gravity="center"
+                        android:id="@+id/btnCreateAnAccou"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_16pxh"
+                        android:layout_marginStart="@dimen/_16pxh"
+                        android:layout_marginTop="@dimen/_16pxv"
+                        android:layout_width="match_parent"
+                        android:paddingBottom="@dimen/_16pxv"
+                        android:paddingEnd="@dimen/_30pxh"
+                        android:paddingStart="@dimen/_30pxh"
+                        android:paddingTop="@dimen/_16pxv"
+                        android:singleLine="true"
+                        android:text="@string/msg_create_an_accou"
+                        android:textAllCaps="false"
+                        style="@style/btnSolidRounded_13" tools:text="@string/msg_create_an_accou"/>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:ellipsize="end" android:gravity="center"
+                        android:id="@+id/btnLater"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_16pxv"
+                        android:layout_marginEnd="@dimen/_16pxh"
+                        android:layout_marginStart="@dimen/_16pxh"
+                        android:layout_marginTop="@dimen/_8pxv"
+                        android:layout_width="match_parent"
+                        android:paddingBottom="@dimen/_16pxv"
+                        android:paddingEnd="@dimen/_30pxh"
+                        android:paddingStart="@dimen/_30pxh"
+                        android:paddingTop="@dimen/_16pxv"
+                        android:singleLine="true"
+                        android:text="@string/lbl_later"
+                        android:textAllCaps="false"
+                        style="@style/btnRounded_1" tools:text="@string/lbl_later"/>
+                </LinearLayout>
+            </FrameLayout>
+            <ImageView android:id="@+id/imageIllustration"
+                android:layout_gravity="top|center"
+                android:layout_height="@dimen/_274pxh"
+                android:layout_marginBottom="@dimen/_106pxv"
+                android:layout_marginEnd="@dimen/_16pxh"
+                android:layout_marginStart="@dimen/_16pxh"
+                android:layout_marginTop="@dimen/_106pxv"
+                android:layout_width="@dimen/_343pxh"
+                android:scaleType="fitXY" android:src="@drawable/img_illustration_5"/>
+        </FrameLayout>
+    </LinearLayout>
+</layout>

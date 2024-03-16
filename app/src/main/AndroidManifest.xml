@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest package="com.application.app" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name" android:largeHeap="true"
+        android:name="com.application.app.appcomponents.di.MyApp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true" android:theme="@style/Theme.MyApp" android:usesCleartextTraffic="true">
+        <activity android:exported="true"
+            android:name="com.application.app.modules.setnewpassword.ui.SetNewPasswordActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.application.app.modules.livequizvoicenote1.ui.LiveQuizVoiceNote1Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.createquizcheckbox.ui.CreateQuizCheckboxActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.appnavigation.ui.AppNavigationActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.signupenterpassword.ui.SignUpEnterPasswordActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.livequizpuzzle.ui.LiveQuizPuzzleActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.faq1.ui.Faq1Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.loginsignupoptions.ui.LoginSignUpOptionsActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.signupenteremail.ui.SignUpEnterEmailActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.splashscreen.ui.SplashScreenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.onboarding3.ui.Onboarding3Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.profilestats.ui.ProfileStatsActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.quizcategories.ui.QuizCategoriesActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.createquiz.ui.CreateQuizActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.quizcompleted.ui.QuizCompletedActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.createquizchoosecategory.ui.CreateQuizChooseCategoryActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.livequizcheckboxes.ui.LiveQuizCheckboxesActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.settings.ui.SettingsActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.reviewquiz.ui.ReviewQuizActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.faq.ui.FaqActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.leaderboardalltimefull1.ui.LeaderboardAllTimeFull1Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.reviewquizsummaryanswers.ui.ReviewQuizSummaryAnswersActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.signupenterusername.ui.SignUpEnterUsernameActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.signup.ui.SignUpActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.invitefriends.ui.InviteFriendsActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.createquiztypeanswer.ui.CreateQuizTypeAnswerActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.livequizmultiplechoices.ui.LiveQuizMultipleChoicesActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.livequizpoll.ui.LiveQuizPollActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.createquizvoicenote.ui.CreateQuizVoiceNoteActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.createquizpoll.ui.CreateQuizPollActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.searchquizresults.ui.SearchQuizResultsActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.livequiztrueorfalse.ui.LiveQuizTrueOrFalseActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.onboarding1.ui.Onboarding1Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.createquiztrueorfalse.ui.CreateQuizTrueOrFalseActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.quizdetails.ui.QuizDetailsActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.livequiztypeanswer.ui.LiveQuizTypeAnswerActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.livequizvoicenote.ui.LiveQuizVoiceNoteActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.livequizmultiplechoicesanswersexplanation.ui.LiveQuizMultipleChoicesAnswersExplanationActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.home.ui.HomeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.profilebadge.ui.ProfileBadgeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.onboarding2.ui.Onboarding2Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.livequizvoicenoteanswerexplanation.ui.LiveQuizVoiceNoteAnswerExplanationActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.createquizpuzzle.ui.CreateQuizPuzzleActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.createquizmultiplechoices1.ui.CreateQuizMultipleChoices1Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.searchquiz.ui.SearchQuizActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.forgotpassword.ui.ForgotPasswordActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.login.ui.LoginActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.application.app.modules.profiledetails.ui.ProfileDetailsActivity" android:screenOrientation="portrait"/>
+    </application>
+</manifest>

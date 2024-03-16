@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="createQuizMultipleChoices2RowModel" type="com.application.app.modules.createquizmultiplechoices1.data.model.CreateQuizMultipleChoices2RowModel"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearAddAnswer"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStyledeep_purple_3">
+        <ImageView android:id="@+id/imageIcon"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_24pxh"
+            android:layout_marginEnd="@dimen/_37pxh"
+            android:layout_marginStart="@dimen/_37pxh"
+            android:layout_marginTop="@dimen/_20pxv"
+            android:layout_width="@dimen/_24pxh"
+            android:scaleType="fitXY" android:src="@drawable/img_icon_56"/>
+        <TextView android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:id="@+id/txtAddAnswer"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_37pxh"
+            android:layout_marginStart="@dimen/_37pxh"
+            android:layout_marginTop="@dimen/_8pxv"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:text="@{createQuizMultipleChoices2RowModel.txtAddAnswer}"
+            style="@style/txtRubikmedium14_4" tools:text="@string/lbl_add_answer"/>
+    </LinearLayout>
+</layout>

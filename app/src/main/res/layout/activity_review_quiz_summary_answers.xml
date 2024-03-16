@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="reviewQuizSummaryAnswersVM" type="com.application.app.modules.reviewquizsummaryanswers.data.viewmodel.ReviewQuizSummaryAnswersVM"/>
+    </data>
+    <LinearLayout android:gravity="start"
+        android:id="@+id/linearGroup1783"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarToolbar"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_60pxv"
+            android:layout_width="match_parent" app:contentInsetStart="0dp">
+            <LinearLayout android:id="@+id/linearReviewAnswers"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/_24pxh"
+                android:layout_marginStart="@dimen/_94pxh"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtReviewAnswers"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.89"
+                    android:layout_width="0dp" android:singleLine="true"
+                    android:text="@{reviewQuizSummaryAnswersVM.reviewQuizSummaryAnswersModel.txtReviewAnswers}"
+                    style="@style/txtGraphikmedium24" tools:text="@string/lbl_review_answers"/>
+                <ImageView android:id="@+id/imageIcon"
+                    android:layout_height="@dimen/_24pxh"
+                    android:layout_marginBottom="@dimen/_6pxv"
+                    android:layout_marginStart="@dimen/_47pxh"
+                    android:layout_marginTop="@dimen/_6pxv"
+                    android:layout_width="@dimen/_24pxh"
+                    android:scaleType="fitXY" android:src="@drawable/img_icon_34"/>
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+        <androidx.core.widget.NestedScrollView
+            android:clipToPadding="false" android:fillViewport="true"
+            android:id="@+id/scrollViewScrollview"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_16pxv"
+            android:layout_weight="1" android:layout_width="match_parent">
+            <LinearLayout android:gravity="start"
+                android:id="@+id/linear59ReviewQuiz"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" android:orientation="vertical">
+                <LinearLayout android:gravity="center_horizontal"
+                    android:id="@+id/linearRoundedRectang"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_24pxh"
+                    android:layout_marginStart="@dimen/_24pxh"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical" style="@style/groupStyledeep_purple_400cornerRadius">
+                    <LinearLayout android:id="@+id/linearQuizName"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_16pxh"
+                        android:layout_marginStart="@dimen/_16pxh"
+                        android:layout_marginTop="@dimen/_24pxv"
+                        android:layout_width="match_parent" android:orientation="horizontal">
+                        <LinearLayout android:gravity="start"
+                            android:id="@+id/linearQuizName1"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.83"
+                            android:layout_width="0dp" android:orientation="vertical">
+                            <TextView android:alpha="0.7"
+                                android:ellipsize="end"
+                                android:id="@+id/txtQUIZNAME"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="@dimen/_10pxh"
+                                android:layout_width="wrap_content"
+                                android:singleLine="true"
+                                android:text="@{reviewQuizSummaryAnswersVM.reviewQuizSummaryAnswersModel.txtQUIZNAME}"
+                                style="@style/txtGraphikmedium14" tools:text="@string/lbl_quiz_name"/>
+                            <TextView android:ellipsize="end"
+                                android:id="@+id/txtEnglishPremier"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_4pxv"
+                                android:layout_width="match_parent"
+                                android:singleLine="true"
+                                android:text="@{reviewQuizSummaryAnswersVM.reviewQuizSummaryAnswersModel.txtEnglishPremier}"
+                                style="@style/txtRubikmedium16" tools:text="@string/msg_english_premier"/>
+                        </LinearLayout>
+                        <ImageView android:id="@+id/imageIcon1"
+                            android:layout_height="@dimen/_48pxh"
+                            android:layout_marginStart="@dimen/_16pxh"
+                            android:layout_width="@dimen/_48pxh"
+                            android:scaleType="fitXY" android:src="@drawable/img_icon_35"/>
+                    </LinearLayout>
+                    <FrameLayout android:id="@+id/frameGroup1777"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="@dimen/_148pxv"
+                        android:layout_marginEnd="@dimen/_16pxh"
+                        android:layout_marginStart="@dimen/_16pxh"
+                        android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_295pxh">
+                        <ImageView android:id="@+id/imageMaskGroup"
+                            android:layout_gravity="start"
+                            android:layout_height="@dimen/_148pxh"
+                            android:layout_width="match_parent"
+                            android:scaleType="fitXY" android:src="@drawable/img_maskgroup_1"/>
+                        <LinearLayout android:id="@+id/linearGroup1768"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="@dimen/_24pxh"
+                            android:layout_marginVertical="@dimen/_24pxv"
+                            android:layout_width="match_parent" android:orientation="horizontal">
+                            <FrameLayout
+                                android:id="@+id/frameGroup1779"
+                                android:layout_height="@dimen/_100pxv" android:layout_width="@dimen/_100pxh">
+                                <FrameLayout
+                                    android:background="@drawable/rectangle_border_white_a700_6c"
+                                    android:id="@+id/frameGroup210"
+                                    android:layout_gravity="start"
+                                    android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+                                <TextView android:id="@+id/txt810"
+                                    android:layout_gravity="center"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="@dimen/_30pxv"
+                                    android:layout_marginEnd="@dimen/_13pxh"
+                                    android:layout_marginStart="@dimen/_13pxh"
+                                    android:layout_marginTop="@dimen/_30pxv"
+                                    android:layout_width="match_parent"
+                                    android:text="@{reviewQuizSummaryAnswersVM.reviewQuizSummaryAnswersModel.txt810}"
+                                    style="@style/txtGraphikmedium16_1" tools:text="@string/lbl_8_102"/>
+                            </FrameLayout>
+                            <TextView android:id="@+id/txtYouAnswered8"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_14pxv"
+                                android:layout_marginStart="@dimen/_16pxh"
+                                android:layout_marginTop="@dimen/_14pxv"
+                                android:layout_weight="0.57"
+                                android:layout_width="0dp"
+                                android:text="@{reviewQuizSummaryAnswersVM.reviewQuizSummaryAnswersModel.txtYouAnswered8}"
+                                style="@style/txtRubikmedium16" tools:text="@string/msg_you_answered_8"/>
+                        </LinearLayout>
+                    </FrameLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="start"
+                    android:id="@+id/linearYourAnswers"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_24pxh"
+                    android:layout_marginStart="@dimen/_24pxh"
+                    android:layout_marginTop="@dimen/_24pxv"
+                    android:layout_width="match_parent" android:orientation="vertical">
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtYourAnswers"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_width="wrap_content"
+                        android:singleLine="true"
+                        android:text="@{reviewQuizSummaryAnswersVM.reviewQuizSummaryAnswersModel.txtYourAnswers}"
+                        style="@style/txtGraphikmedium18" tools:text="@string/lbl_your_answers"/>
+                    <LinearLayout android:gravity="center_horizontal"
+                        android:id="@+id/linearReviewAnswers1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_16pxv"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical" style="@style/groupStyledeep_purple_3">
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:gravity="center_horizontal"
+                            android:id="@+id/recyclerGroup1780"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_16pxh"
+                            android:layout_marginStart="@dimen/_16pxh"
+                            android:layout_marginTop="@dimen/_24pxv"
+                            android:layout_width="match_parent"
+                            android:nestedScrollingEnabled="false"
+                            android:orientation="vertical"
+                            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                            itemSpace="@{@dimen/_16pxh}"
+                            tools:itemCount="6" tools:listitem="@layout/row_review_quiz_summary_answers1"/>
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:gravity="center_horizontal"
+                            android:id="@+id/recyclerGroup1781"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_24pxv"
+                            android:layout_marginEnd="@dimen/_16pxh"
+                            android:layout_marginStart="@dimen/_16pxh"
+                            android:layout_marginTop="@dimen/_16pxv"
+                            android:layout_width="match_parent"
+                            android:nestedScrollingEnabled="false"
+                            android:orientation="vertical"
+                            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                            itemSpace="@{@dimen/_16pxh}"
+                            tools:itemCount="4" tools:listitem="@layout/row_review_quiz_summary_answers2"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="start"
+                    android:id="@+id/linearButtons"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_24pxv"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal" style="@style/groupStylewhite_4">
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:ellipsize="end" android:gravity="center"
+                        android:id="@+id/btnEditAnswer"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_36pxv"
+                        android:layout_marginStart="@dimen/_24pxh"
+                        android:layout_marginTop="@dimen/_16pxv"
+                        android:layout_weight="0.5"
+                        android:layout_width="0dp"
+                        android:paddingBottom="@dimen/_16pxv"
+                        android:paddingEnd="@dimen/_30pxh"
+                        android:paddingStart="@dimen/_30pxh"
+                        android:paddingTop="@dimen/_16pxv"
+                        android:singleLine="true"
+                        android:text="@string/lbl_edit_answer"
+                        android:textAllCaps="false"
+                        style="@style/btnSolidRoundedOutline_1" tools:text="@string/lbl_edit_answer"/>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:ellipsize="end" android:gravity="center"
+                        android:id="@+id/btnSubmit"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_36pxv"
+                        android:layout_marginEnd="@dimen/_24pxh"
+                        android:layout_marginStart="@dimen/_16pxh"
+                        android:layout_marginTop="@dimen/_16pxv"
+                        android:layout_weight="0.5"
+                        android:layout_width="0dp"
+                        android:paddingBottom="@dimen/_16pxv"
+                        android:paddingEnd="@dimen/_30pxh"
+                        android:paddingStart="@dimen/_30pxh"
+                        android:paddingTop="@dimen/_16pxv"
+                        android:singleLine="true"
+                        android:text="@string/lbl_submit"
+                        android:textAllCaps="false"
+                        style="@style/btnSolidRounded_4" tools:text="@string/lbl_submit"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="searchQuizResults1RowModel" type="com.application.app.modules.searchquizresults.data.model.SearchQuizResults1RowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearGroup"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal" style="@style/groupStylewhite_6">
+        <ImageView android:id="@+id/imageFrame"
+            android:layout_height="@dimen/_64pxh"
+            android:layout_marginBottom="@dimen/_8pxv"
+            android:layout_marginStart="@dimen/_8pxh"
+            android:layout_marginTop="@dimen/_8pxv"
+            android:layout_width="@dimen/_64pxh"
+            android:scaleType="fitXY" android:src="@drawable/img_frame"/>
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearQuiz"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_16pxv"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_16pxv"
+            android:layout_weight="0.68" android:layout_width="0dp" android:orientation="vertical">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtStatisticsMath"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:text="@{searchQuizResults1RowModel.txtStatisticsMath}"
+                style="@style/txtRubikmedium16_1" tools:text="@string/msg_statistics_math"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtMath12Quizz"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_6pxv"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:text="@{searchQuizResults1RowModel.txtMath12Quizz}"
+                style="@style/txtRubikregular12" tools:text="@string/msg_math_12_quizz"/>
+        </LinearLayout>
+        <ImageView android:id="@+id/imageIcon"
+            android:layout_height="@dimen/_24pxh"
+            android:layout_marginBottom="@dimen/_28pxv"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_28pxv"
+            android:layout_width="@dimen/_24pxh"
+            android:scaleType="fitXY" android:src="@drawable/img_icon_70"/>
+    </LinearLayout>
+</layout>

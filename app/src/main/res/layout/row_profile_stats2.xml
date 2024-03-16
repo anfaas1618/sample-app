@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="profileStats2RowModel" type="com.application.app.modules.profilestats.data.model.ProfileStats2RowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearGroup"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical" style="@style/groupStylewhite_A700cornerRadius">
+        <LinearLayout android:id="@+id/linearGroup1641"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16pxv"
+            android:layout_width="match_parent" android:orientation="horizontal">
+            <TextView android:ellipsize="end" android:id="@+id/txt5"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_16pxh"
+                android:layout_weight="0.47" android:layout_width="0dp"
+                android:singleLine="true"
+                android:text="@{profileStats2RowModel.txt5}"
+                style="@style/txtRubikbold32_1" tools:text="@string/lbl_5"/>
+            <ImageView android:id="@+id/imageIcon"
+                android:layout_height="@dimen/_24pxh"
+                android:layout_marginBottom="@dimen/_22pxv"
+                android:layout_marginEnd="@dimen/_16pxh"
+                android:layout_marginStart="@dimen/_63pxh"
+                android:layout_width="@dimen/_24pxh"
+                android:scaleType="fitXY" android:src="@drawable/img_icon_23"/>
+        </LinearLayout>
+        <TextView android:ellipsize="end" android:gravity="start"
+            android:id="@+id/txtQuizCreated"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_16pxv"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:text="@{profileStats2RowModel.txtQuizCreated}"
+            style="@style/txtRubikregular14_2" tools:text="@string/lbl_quiz_created"/>
+    </LinearLayout>
+</layout>

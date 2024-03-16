@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="profileStats1RowModel" type="com.application.app.modules.profilestats.data.model.ProfileStats1RowModel"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearPoints"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" android:orientation="vertical">
+        <ImageView android:id="@+id/imageIcon"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_24pxh"
+            android:layout_marginEnd="@dimen/_26pxh"
+            android:layout_marginStart="@dimen/_26pxh"
+            android:layout_width="@dimen/_24pxh"
+            android:scaleType="fitXY" android:src="@drawable/img_icon_21"/>
+        <TextView android:alpha="0.5" android:ellipsize="end"
+            android:gravity="start" android:id="@+id/txtPOINTS"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_3pxv"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:text="@{profileStats1RowModel.txtPOINTS}"
+            android:textAllCaps="true" style="@style/txtRubikmedium12_2" tools:text="@string/lbl_points"/>
+        <TextView android:ellipsize="end" android:id="@+id/txt590"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_26pxh"
+            android:layout_marginStart="@dimen/_26pxh"
+            android:layout_width="wrap_content"
+            android:singleLine="true"
+            android:text="@{profileStats1RowModel.txt590}"
+            style="@style/txtRubikbold16" tools:text="@string/lbl_590"/>
+    </LinearLayout>
+</layout>
