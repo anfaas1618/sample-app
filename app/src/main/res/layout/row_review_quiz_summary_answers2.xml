@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="reviewQuizSummaryAnswers2RowModel" type="com.application.app.modules.reviewquizsummaryanswers.data.model.ReviewQuizSummaryAnswers2RowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linear"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:orientation="horizontal">
+        <LinearLayout android:gravity="center_horizontal"
+            android:id="@+id/linearEllipse76"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_76pxv"
+            android:layout_weight="0.11" android:layout_width="0dp"
+            android:orientation="vertical" style="@style/groupStylewhite_3">
+            <TextView android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:id="@+id/txt7"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/_4pxv"
+                android:layout_marginEnd="@dimen/_11pxh"
+                android:layout_marginStart="@dimen/_12pxh"
+                android:layout_marginTop="@dimen/_4pxv"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:text="@{reviewQuizSummaryAnswers2RowModel.txt7}"
+                style="@style/txtRubikmedium16_2" tools:text="@string/lbl_7"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearQuestion"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_weight="0.89" android:layout_width="0dp" android:orientation="vertical">
+            <TextView android:id="@+id/txtWhichThreePla"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@{reviewQuizSummaryAnswers2RowModel.txtWhichThreePla}"
+                style="@style/txtGraphikmedium14_1" tools:text="@string/msg_which_three_pla"/>
+            <TextView android:id="@+id/txtMohamedSalah"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_8pxv"
+                android:layout_width="match_parent"
+                android:text="@{reviewQuizSummaryAnswers2RowModel.txtMohamedSalah}"
+                style="@style/txtGraphikregular14" tools:text="@string/msg_mohamed_salah"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

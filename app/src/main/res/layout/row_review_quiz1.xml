@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="reviewQuiz1RowModel" type="com.application.app.modules.reviewquiz.data.model.ReviewQuiz1RowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linear"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:orientation="horizontal">
+        <LinearLayout android:gravity="center_horizontal"
+            android:id="@+id/linearEllipse51"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_34pxv"
+            android:layout_weight="0.12" android:layout_width="0dp"
+            android:orientation="vertical" style="@style/groupStylewhite_3">
+            <TextView android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:id="@+id/txt4"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/_4pxv"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_4pxv"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:text="@{reviewQuiz1RowModel.txt4}"
+                style="@style/txtRubikmedium16_2" tools:text="@string/lbl_4"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearGroup"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_weight="0.68" android:layout_width="0dp" android:orientation="vertical">
+            <TextView android:id="@+id/txtWhoWroteTheS"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@{reviewQuiz1RowModel.txtWhoWroteTheS}"
+                style="@style/txtRubikmedium14_2" tools:text="@string/msg_who_wrote_the_s"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtVoiceNote"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_8pxv"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@{reviewQuiz1RowModel.txtVoiceNote}"
+                style="@style/txtRubikregular12" tools:text="@string/lbl_voice_note"/>
+        </LinearLayout>
+        <ImageView android:id="@+id/imageQuizTypesIcon"
+            android:layout_height="@dimen/_56pxh"
+            android:layout_marginBottom="@dimen/_10pxv"
+            android:layout_marginStart="@dimen/_8pxh"
+            android:layout_width="@dimen/_56pxh"
+            android:scaleType="fitXY" android:src="@drawable/img_quiztypesicon_1"/>
+    </LinearLayout>
+</layout>

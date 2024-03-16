@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="signUpEnterUsernameVM" type="com.application.app.modules.signupenterusername.data.viewmodel.SignUpEnterUsernameVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linear243SignUp"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStyledeep_purple_50">
+        <androidx.appcompat.widget.Toolbar android:gravity="start"
+            android:id="@+id/toolbarToolbar"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_60pxv"
+            android:layout_width="match_parent" app:contentInsetStart="0dp">
+            <LinearLayout android:gravity="start"
+                android:id="@+id/linearCreateauserna"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/_78pxh"
+                android:layout_marginStart="@dimen/_24pxh"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <ImageView android:id="@+id/imageIcon"
+                    android:layout_height="@dimen/_24pxh"
+                    android:layout_marginBottom="@dimen/_6pxv"
+                    android:layout_marginTop="@dimen/_6pxv"
+                    android:layout_width="@dimen/_24pxh"
+                    android:scaleType="fitXY" android:src="@drawable/img_icon_2"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtCreateAUserna"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_30pxh"
+                    android:layout_weight="0.9"
+                    android:layout_width="0dp" android:singleLine="true"
+                    android:text="@{signUpEnterUsernameVM.signUpEnterUsernameModel.txtCreateAUserna}"
+                    style="@style/txtRubikmedium24_1" tools:text="@string/msg_create_a_userna"/>
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearUsername"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_24pxh"
+            android:layout_marginStart="@dimen/_24pxh"
+            android:layout_marginTop="@dimen/_24pxv"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtUsername"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@{signUpEnterUsernameVM.signUpEnterUsernameModel.txtUsername}"
+                style="@style/txtRubikregular14_2" tools:text="@string/lbl_username"/>
+            <EditText
+                android:background="@drawable/rectangle_bg_white_a700_border_deep_purple_50_radius_20"
+                android:drawablePadding="@dimen/_10pxh"
+                android:drawableStart="@drawable/img_icon_86"
+                android:ellipsize="end"
+                android:hint="@string/lbl_your_username"
+                android:id="@+id/etYourUsername"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8pxv"
+                android:layout_width="match_parent"
+                android:paddingBottom="@dimen/_20pxv"
+                android:paddingStart="@dimen/_16pxh"
+                android:paddingTop="@dimen/_20pxv"
+                android:singleLine="true"
+                android:text="@={signUpEnterUsernameVM.signUpEnterUsernameModel.etYourUsernameValue}"
+                android:textColorHint="@color/bluegray_400" style="@style/etSolidRoundedOutline_2"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="end"
+            android:id="@+id/linearSteps"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_24pxh"
+            android:layout_marginStart="@dimen/_24pxh"
+            android:layout_marginTop="@dimen/_173pxv"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <TextView android:ellipsize="end" android:id="@+id/txt3Of3"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@{signUpEnterUsernameVM.signUpEnterUsernameModel.txt3Of3}"
+                style="@style/txtRubikmedium16_2" tools:text="@string/lbl_3_of_3"/>
+            <ImageView android:gravity="start"
+                android:id="@+id/imageProgress"
+                android:layout_height="@dimen/_8pxh"
+                android:layout_marginTop="@dimen/_8pxv"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY" android:src="@drawable/img_progress"/>
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:ellipsize="end" android:gravity="center"
+            android:id="@+id/btnResetPassword"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_24pxh"
+            android:layout_marginStart="@dimen/_24pxh"
+            android:layout_marginTop="@dimen/_24pxv"
+            android:layout_width="match_parent"
+            android:paddingBottom="@dimen/_16pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingStart="@dimen/_30pxh"
+            android:paddingTop="@dimen/_16pxv" android:singleLine="true"
+            android:text="@string/lbl_reset_password"
+            android:textAllCaps="false" style="@style/btnSolidRounded_4" tools:text="@string/lbl_reset_password"/>
+    </LinearLayout>
+</layout>

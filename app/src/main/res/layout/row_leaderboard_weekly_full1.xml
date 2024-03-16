@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="leaderboardWeeklyFull1RowModel" type="com.application.app.modules.leaderboardweeklyfull.data.model.LeaderboardWeeklyFull1RowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearGroup"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal" style="@style/groupStylewhite_A700cornerRadius">
+        <LinearLayout android:gravity="center_horizontal"
+            android:id="@+id/linearEllipse"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_34pxv"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_34pxv"
+            android:layout_weight="0.11" android:layout_width="0dp"
+            android:orientation="vertical" style="@style/groupStylecornerRadius">
+            <TextView android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:id="@+id/txt1"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/_3pxv"
+                android:layout_marginEnd="@dimen/_9pxh"
+                android:layout_marginStart="@dimen/_9pxh"
+                android:layout_marginTop="@dimen/_3pxv"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:text="@{leaderboardWeeklyFull1RowModel.txt1}"
+                style="@style/txtRubikmedium12" tools:text="@string/lbl_1"/>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/frameGroup1063"
+            android:layout_height="@dimen/_60pxv"
+            android:layout_marginBottom="@dimen/_16pxv"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_16pxv" android:layout_width="@dimen/_60pxh">
+            <FrameLayout android:id="@+id/frameGroup1065"
+                android:layout_gravity="top|start"
+                android:layout_height="@dimen/_56pxv"
+                android:layout_marginBottom="@dimen/_10pxv"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_width="@dimen/_56pxh" style="@style/groupStyleteal_50cornerRadius">
+                <FrameLayout android:id="@+id/frameGroup1067"
+                    android:layout_gravity="bottom|center"
+                    android:layout_height="@dimen/_50pxv"
+                    android:layout_marginEnd="@dimen/_4pxh"
+                    android:layout_marginStart="@dimen/_4pxh"
+                    android:layout_marginTop="@dimen/_10pxv" android:layout_width="@dimen/_48pxh">
+                    <ImageView android:id="@+id/imageBody"
+                        android:layout_gravity="bottom|center"
+                        android:layout_height="@dimen/_44pxh"
+                        android:layout_marginEnd="@dimen/_5pxh"
+                        android:layout_marginStart="@dimen/_5pxh"
+                        android:layout_marginTop="@dimen/_10pxv"
+                        android:layout_width="@dimen/_36pxh"
+                        android:scaleType="fitXY" android:src="@drawable/img_body_14"/>
+                    <LinearLayout android:id="@+id/linearFacialHair"
+                        android:layout_gravity="top|center"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_10pxv"
+                        android:layout_marginEnd="@dimen/_13pxh"
+                        android:layout_marginStart="@dimen/_13pxh"
+                        android:layout_marginTop="@dimen/_3pxv"
+                        android:layout_width="match_parent" android:orientation="vertical">
+                        <ImageView android:id="@+id/imageHair"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_height="@dimen/_14pxh"
+                            android:layout_width="@dimen/_21pxh"
+                            android:scaleType="fitXY" android:src="@drawable/img_hair"/>
+                        <FrameLayout android:id="@+id/frameGroup1069"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_height="@dimen/_15pxv"
+                            android:layout_marginTop="@dimen/_1pxv" android:layout_width="@dimen/_20pxh">
+
+                            <com.google.android.material.slider.RangeSlider
+                                android:id="@+id/rangeBarGroup105"
+                                android:layout_gravity="start"
+                                android:layout_height="wrap_content"
+                                android:layout_width="match_parent"
+                                android:valueFrom="0"
+                                android:valueTo="100"
+                                app:labelBehavior="gone"
+                                app:thumbColor="@color/gray_900"
+                                app:thumbRadius="@dimen/_1pxh"
+                                app:trackColorActive="@color/gray_900"
+                                app:trackColorInactive="@color/bluegray_100" app:values="@array/range_slider_values23"/>
+                            <ImageView android:id="@+id/imageHey"
+                                android:layout_gravity="top|center"
+                                android:layout_height="@dimen/_2pxh"
+                                android:layout_marginBottom="@dimen/_10pxv"
+                                android:layout_marginEnd="@dimen/_4pxh"
+                                android:layout_marginStart="@dimen/_4pxh"
+                                android:layout_marginTop="@dimen/_5pxv"
+                                android:layout_width="@dimen/_11pxh"
+                                android:scaleType="fitXY" android:src="@drawable/img_hey"/>
+                        </FrameLayout>
+                    </LinearLayout>
+                    <ImageView android:id="@+id/imageClothes"
+                        android:layout_gravity="bottom|start"
+                        android:layout_height="@dimen/_19pxh"
+                        android:layout_marginTop="@dimen/_10pxv"
+                        android:layout_width="@dimen/_48pxh"
+                        android:scaleType="fitXY" android:src="@drawable/img_clothes_4"/>
+                </FrameLayout>
+                <ImageView android:id="@+id/imageFace"
+                    android:layout_gravity="bottom|center"
+                    android:layout_height="@dimen/_17pxh"
+                    android:layout_marginBottom="@dimen/_15pxv"
+                    android:layout_marginEnd="@dimen/_17pxh"
+                    android:layout_marginStart="@dimen/_17pxh"
+                    android:layout_marginTop="@dimen/_15pxv"
+                    android:layout_width="@dimen/_20pxh"
+                    android:scaleType="fitXY" android:src="@drawable/img_face_9"/>
+            </FrameLayout>
+            <ImageView android:id="@+id/imageFlag"
+                android:layout_gravity="bottom|end"
+                android:layout_height="@dimen/_20pxh"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_10pxv"
+                android:layout_width="@dimen/_20pxh"
+                android:scaleType="fitXY" android:src="@drawable/img_flag_1"/>
+        </FrameLayout>
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearName"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_22pxv"
+            android:layout_marginStart="@dimen/_12pxh"
+            android:layout_marginTop="@dimen/_22pxv"
+            android:layout_weight="0.43" android:layout_width="0dp" android:orientation="vertical">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtDavisCurtis"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:text="@{leaderboardWeeklyFull1RowModel.txtDavisCurtis}"
+                style="@style/txtRubikmedium16_1" tools:text="@string/lbl_davis_curtis"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txt2569Points"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_4pxv"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:text="@{leaderboardWeeklyFull1RowModel.txt2569Points}"
+                style="@style/txtRubikregular14" tools:text="@string/lbl_2_569_points"/>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/frameGroup1071"
+            android:layout_height="@dimen/_40pxv"
+            android:layout_marginBottom="@dimen/_26pxv"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_49pxh"
+            android:layout_marginTop="@dimen/_26pxv" android:layout_width="@dimen/_40pxh">
+            <ImageView android:id="@+id/imageStar"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_40pxh"
+                android:layout_width="@dimen/_40pxh"
+                android:scaleType="fitXY" android:src="@drawable/img_star_4"/>
+            <ImageView android:id="@+id/imageIcon"
+                android:layout_gravity="center"
+                android:layout_height="@dimen/_20pxh"
+                android:layout_marginHorizontal="@dimen/_10pxh"
+                android:layout_marginVertical="@dimen/_10pxv"
+                android:layout_width="@dimen/_20pxh"
+                android:scaleType="fitXY" android:src="@drawable/img_icon_10"/>
+        </FrameLayout>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="createQuizPuzzleVM" type="com.application.app.modules.createquizpuzzle.data.viewmodel.CreateQuizPuzzleVM"/>
+    </data>
+    <LinearLayout android:gravity="start"
+        android:id="@+id/linear48CreateQuiz"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStyledeep_purple_400">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarToolbar"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_60pxv"
+            android:layout_width="match_parent" app:contentInsetStart="0dp">
+            <LinearLayout android:id="@+id/linearCreateQuiz"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/_24pxh"
+                android:layout_marginStart="@dimen/_24pxh"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <ImageView android:id="@+id/imageIcon"
+                    android:layout_height="@dimen/_24pxh"
+                    android:layout_marginBottom="@dimen/_6pxv"
+                    android:layout_marginTop="@dimen/_6pxv"
+                    android:layout_width="@dimen/_24pxh"
+                    android:scaleType="fitXY" android:src="@drawable/img_icon"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtCreateQuiz"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_72pxh"
+                    android:layout_weight="0.74"
+                    android:layout_width="0dp" android:singleLine="true"
+                    android:text="@{createQuizPuzzleVM.createQuizPuzzleModel.txtCreateQuiz}"
+                    style="@style/txtRubikmedium24" tools:text="@string/lbl_create_quiz"/>
+                <ImageView android:id="@+id/imageIcon1"
+                    android:layout_height="@dimen/_24pxh"
+                    android:layout_marginBottom="@dimen/_6pxv"
+                    android:layout_marginStart="@dimen/_72pxh"
+                    android:layout_marginTop="@dimen/_6pxv"
+                    android:layout_width="@dimen/_24pxh"
+                    android:scaleType="fitXY" android:src="@drawable/img_icon_48"/>
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+        <FrameLayout android:id="@+id/frameGroup1887"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_684pxv"
+            android:layout_marginBottom="@dimen/_8pxv"
+            android:layout_marginEnd="@dimen/_8pxh"
+            android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_367pxh">
+            <FrameLayout android:id="@+id/frameGroup1889"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_684pxv" android:layout_width="@dimen/_367pxh">
+                <ImageView android:id="@+id/imageBase"
+                    android:layout_gravity="center"
+                    android:layout_height="@dimen/_684pxh"
+                    android:layout_marginStart="@dimen/_8pxh"
+                    android:layout_width="@dimen/_359pxh"
+                    android:scaleType="fitXY" android:src="@drawable/img_base_3"/>
+                <LinearLayout android:id="@+id/linearNumberofQuest"
+                    android:layout_gravity="top|start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_16pxv"
+                    android:layout_marginEnd="@dimen/_10pxh"
+                    android:layout_marginTop="@dimen/_16pxv"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txt3"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_6pxv"
+                        android:layout_marginStart="@dimen/_19pxh"
+                        android:layout_marginTop="@dimen/_6pxv"
+                        android:layout_weight="0.11"
+                        android:layout_width="0dp"
+                        android:singleLine="true"
+                        android:text="@{createQuizPuzzleVM.createQuizPuzzleModel.txt3}"
+                        style="@style/txtRubikregular14" tools:text="@string/lbl_3"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txt4"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_6pxv"
+                        android:layout_marginStart="@dimen/_28pxh"
+                        android:layout_marginTop="@dimen/_6pxv"
+                        android:layout_weight="0.11"
+                        android:layout_width="0dp"
+                        android:singleLine="true"
+                        android:text="@{createQuizPuzzleVM.createQuizPuzzleModel.txt4}"
+                        style="@style/txtRubikregular14" tools:text="@string/lbl_4"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txt5"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_6pxv"
+                        android:layout_marginStart="@dimen/_28pxh"
+                        android:layout_marginTop="@dimen/_6pxv"
+                        android:layout_weight="0.11"
+                        android:layout_width="0dp"
+                        android:singleLine="true"
+                        android:text="@{createQuizPuzzleVM.createQuizPuzzleModel.txt5}"
+                        style="@style/txtRubikregular14" tools:text="@string/lbl_5"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txt6"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_6pxv"
+                        android:layout_marginStart="@dimen/_28pxh"
+                        android:layout_marginTop="@dimen/_6pxv"
+                        android:layout_weight="0.11"
+                        android:layout_width="0dp"
+                        android:singleLine="true"
+                        android:text="@{createQuizPuzzleVM.createQuizPuzzleModel.txt6}"
+                        style="@style/txtRubikregular14" tools:text="@string/lbl_6"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txt7"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_6pxv"
+                        android:layout_marginStart="@dimen/_28pxh"
+                        android:layout_marginTop="@dimen/_6pxv"
+                        android:layout_weight="0.11"
+                        android:layout_width="0dp"
+                        android:singleLine="true"
+                        android:text="@{createQuizPuzzleVM.createQuizPuzzleModel.txt7}"
+                        style="@style/txtRubikregular14" tools:text="@string/lbl_7"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txt8"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_6pxv"
+                        android:layout_marginStart="@dimen/_28pxh"
+                        android:layout_marginTop="@dimen/_6pxv"
+                        android:layout_weight="0.11"
+                        android:layout_width="0dp"
+                        android:singleLine="true"
+                        android:text="@{createQuizPuzzleVM.createQuizPuzzleModel.txt8}"
+                        style="@style/txtRubikregular14" tools:text="@string/lbl_8"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txt9"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_6pxv"
+                        android:layout_marginStart="@dimen/_28pxh"
+                        android:layout_marginTop="@dimen/_6pxv"
+                        android:layout_weight="0.11"
+                        android:layout_width="0dp"
+                        android:singleLine="true"
+                        android:text="@{createQuizPuzzleVM.createQuizPuzzleModel.txt9}"
+                        style="@style/txtRubikregular14" tools:text="@string/lbl_9"/>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:ellipsize="end" android:gravity="center"
+                        android:id="@+id/btn10"
+                        android:layout_height="@dimen/_32pxh"
+                        android:layout_marginStart="@dimen/_20pxh"
+                        android:layout_width="@dimen/_32pxh"
+                        android:paddingBottom="@dimen/_6pxv"
+                        android:paddingEnd="@dimen/_8pxh"
+                        android:paddingStart="@dimen/_8pxh"
+                        android:paddingTop="@dimen/_6pxv"
+                        android:singleLine="true"
+                        android:text="@string/lbl_10"
+                        android:textAllCaps="false"
+                        style="@style/btnSolidRounded_11" tools:text="@string/lbl_10"/>
+                </LinearLayout>
+            </FrameLayout>
+            <LinearLayout android:id="@+id/linearGroup1883"
+                android:layout_gravity="bottom|center"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_16pxv"
+                android:layout_marginEnd="@dimen/_14pxh"
+                android:layout_marginStart="@dimen/_14pxh"
+                android:layout_marginTop="@dimen/_16pxv"
+                android:layout_width="match_parent" android:orientation="vertical">
+                <LinearLayout android:gravity="center_horizontal"
+                    android:id="@+id/linearAddCover"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_2pxh"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical" style="@style/groupStyledeep_purple_50cornerRadius">
+                    <ImageView android:id="@+id/imageIcon2"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="@dimen/_64pxh"
+                        android:layout_marginEnd="@dimen/_98pxh"
+                        android:layout_marginStart="@dimen/_98pxh"
+                        android:layout_marginTop="@dimen/_52pxv"
+                        android:layout_width="@dimen/_64pxh"
+                        android:scaleType="fitXY" android:src="@drawable/img_icon_51"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtAddCoverImage"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_52pxv"
+                        android:layout_marginEnd="@dimen/_98pxh"
+                        android:layout_marginStart="@dimen/_98pxh"
+                        android:layout_marginTop="@dimen/_8pxv"
+                        android:layout_width="wrap_content"
+                        android:singleLine="true"
+                        android:text="@{createQuizPuzzleVM.createQuizPuzzleModel.txtAddCoverImage}"
+                        style="@style/txtRubikmedium16_2" tools:text="@string/lbl_add_cover_image"/>
+                </LinearLayout>
+                <LinearLayout android:id="@+id/linearGroup1881"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_16pxv"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <LinearLayout android:id="@+id/linearGroup1880"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:layout_width="0dp"
+                        android:orientation="horizontal" style="@style/groupStylewhite_7">
+                        <ImageView android:id="@+id/imageIcon3"
+                            android:layout_height="@dimen/_16pxh"
+                            android:layout_marginBottom="@dimen/_9pxv"
+                            android:layout_marginStart="@dimen/_12pxh"
+                            android:layout_marginTop="@dimen/_9pxv"
+                            android:layout_width="@dimen/_16pxh"
+                            android:scaleType="fitXY" android:src="@drawable/img_icon_52"/>
+                        <TextView android:ellipsize="end"
+                            android:id="@+id/txt20Sec"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_8pxv"
+                            android:layout_marginEnd="@dimen/_12pxh"
+                            android:layout_marginStart="@dimen/_4pxh"
+                            android:layout_marginTop="@dimen/_8pxv"
+                            android:layout_weight="0.71"
+                            android:layout_width="0dp"
+                            android:singleLine="true"
+                            android:text="@{createQuizPuzzleVM.createQuizPuzzleModel.txt20Sec}"
+                            style="@style/txtRubikmedium12_3" tools:text="@string/lbl_20_sec"/>
+                    </LinearLayout>
+                    <LinearLayout android:id="@+id/linearTag"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_162pxh"
+                        android:layout_weight="0.5"
+                        android:layout_width="0dp"
+                        android:orientation="horizontal" style="@style/groupStylewhite_7">
+                        <TextView android:ellipsize="end"
+                            android:id="@+id/txtPuzzle"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_8pxv"
+                            android:layout_marginStart="@dimen/_12pxh"
+                            android:layout_marginTop="@dimen/_8pxv"
+                            android:layout_weight="0.71"
+                            android:layout_width="0dp"
+                            android:singleLine="true"
+                            android:text="@{createQuizPuzzleVM.createQuizPuzzleModel.txtPuzzle}"
+                            style="@style/txtRubikmedium12_3" tools:text="@string/lbl_puzzle"/>
+                        <ImageView android:id="@+id/imageIcon4"
+                            android:layout_height="@dimen/_16pxh"
+                            android:layout_marginBottom="@dimen/_9pxv"
+                            android:layout_marginEnd="@dimen/_12pxh"
+                            android:layout_marginStart="@dimen/_4pxh"
+                            android:layout_marginTop="@dimen/_9pxv"
+                            android:layout_width="@dimen/_16pxh"
+                            android:scaleType="fitXY" android:src="@drawable/img_icon_15"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <FrameLayout android:id="@+id/frameGroup1891"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="@dimen/_330pxv"
+                    android:layout_marginEnd="@dimen/_2pxh"
+                    android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_327pxh">
+                    <LinearLayout android:id="@+id/linearAddQuestion"
+                        android:layout_gravity="top|start"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_10pxv"
+                        android:layout_width="match_parent" android:orientation="vertical">
+                        <LinearLayout android:gravity="start"
+                            android:id="@+id/linearAddQuestion1"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent" android:orientation="vertical">
+                            <TextView android:ellipsize="end"
+                                android:id="@+id/txtAddQuestion"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="@dimen/_10pxh"
+                                android:layout_width="wrap_content"
+                                android:singleLine="true"
+                                android:text="@{createQuizPuzzleVM.createQuizPuzzleModel.txtAddQuestion}"
+                                style="@style/txtRubikmedium16_1" tools:text="@string/lbl_add_question"/>
+                            <EditText
+                                android:background="@drawable/rectangle_bg_white_a700_border_deep_purple_50_radius_20"
+                                android:ellipsize="end"
+                                android:hint="@string/msg_enter_your_ques"
+                                android:id="@+id/etEnterYourQues"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_8pxv"
+                                android:layout_width="match_parent"
+                                android:paddingBottom="@dimen/_20pxv"
+                                android:paddingStart="@dimen/_24pxh"
+                                android:paddingTop="@dimen/_20pxv"
+                                android:singleLine="true"
+                                android:text="@={createQuizPuzzleVM.createQuizPuzzleModel.etEnterYourQuesValue}"
+                                android:textColorHint="@color/bluegray_400" style="@style/etSolidRoundedOutline_2"/>
+                        </LinearLayout>
+                        <LinearLayout android:gravity="start"
+                            android:id="@+id/linearAddAnswer"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_16pxv"
+                            android:layout_width="match_parent" android:orientation="vertical">
+                            <LinearLayout
+                                android:id="@+id/linearAddAnswer1"
+                                android:layout_height="wrap_content"
+                                android:layout_width="match_parent" android:orientation="horizontal">
+                                <EditText
+                                    android:background="@drawable/rectangle_bg_white_a700_border_deep_purple_50_radius_20"
+                                    android:ellipsize="end"
+                                    android:hint="@string/lbl_add_answer"
+                                    android:id="@+id/etAddAnswer"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="0.92"
+                                    android:layout_width="0dp"
+                                    android:paddingBottom="@dimen/_20pxv"
+                                    android:paddingStart="@dimen/_21pxh"
+                                    android:paddingTop="@dimen/_20pxv"
+                                    android:singleLine="true"
+                                    android:text="@={createQuizPuzzleVM.createQuizPuzzleModel.etAddAnswerValue}"
+                                    android:textColorHint="@color/bluegray_400" style="@style/etSolidRoundedOutline_2"/>
+                                <ImageView android:id="@+id/imageIcon5"
+                                    android:layout_height="@dimen/_24pxh"
+                                    android:layout_marginBottom="@dimen/_16pxv"
+                                    android:layout_marginStart="@dimen/_16pxh"
+                                    android:layout_marginTop="@dimen/_16pxv"
+                                    android:layout_width="@dimen/_24pxh"
+                                    android:scaleType="fitXY" android:src="@drawable/img_icon_53"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:id="@+id/linearAddAnswer2"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_16pxv"
+                                android:layout_width="match_parent" android:orientation="horizontal">
+                                <EditText
+                                    android:background="@drawable/rectangle_bg_white_a700_border_deep_purple_50_radius_20"
+                                    android:ellipsize="end"
+                                    android:hint="@string/lbl_add_answer"
+                                    android:id="@+id/etAddAnswer1"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="0.92"
+                                    android:layout_width="0dp"
+                                    android:paddingBottom="@dimen/_20pxv"
+                                    android:paddingStart="@dimen/_21pxh"
+                                    android:paddingTop="@dimen/_20pxv"
+                                    android:singleLine="true"
+                                    android:text="@={createQuizPuzzleVM.createQuizPuzzleModel.etAddAnswer1Value}"
+                                    android:textColorHint="@color/bluegray_400" style="@style/etSolidRoundedOutline_2"/>
+                                <ImageView android:id="@+id/imageIcon6"
+                                    android:layout_height="@dimen/_24pxh"
+                                    android:layout_marginBottom="@dimen/_16pxv"
+                                    android:layout_marginStart="@dimen/_16pxh"
+                                    android:layout_marginTop="@dimen/_16pxv"
+                                    android:layout_width="@dimen/_24pxh"
+                                    android:scaleType="fitXY" android:src="@drawable/img_icon_53"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:id="@+id/linearAddAnswer3"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_16pxv"
+                                android:layout_width="match_parent" android:orientation="horizontal">
+                                <EditText
+                                    android:background="@drawable/rectangle_bg_white_a700_border_deep_purple_50_radius_20"
+                                    android:ellipsize="end"
+                                    android:hint="@string/lbl_add_answer"
+                                    android:id="@+id/etAddAnswer2"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="0.92"
+                                    android:layout_width="0dp"
+                                    android:paddingBottom="@dimen/_20pxv"
+                                    android:paddingStart="@dimen/_21pxh"
+                                    android:paddingTop="@dimen/_20pxv"
+                                    android:singleLine="true"
+                                    android:text="@={createQuizPuzzleVM.createQuizPuzzleModel.etAddAnswer2Value}"
+                                    android:textColorHint="@color/bluegray_400" style="@style/etSolidRoundedOutline_2"/>
+                                <ImageView android:id="@+id/imageIcon7"
+                                    android:layout_height="@dimen/_24pxh"
+                                    android:layout_marginBottom="@dimen/_16pxv"
+                                    android:layout_marginStart="@dimen/_16pxh"
+                                    android:layout_marginTop="@dimen/_16pxv"
+                                    android:layout_width="@dimen/_24pxh"
+                                    android:scaleType="fitXY" android:src="@drawable/img_icon_53"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:ellipsize="end" android:gravity="center"
+                        android:id="@+id/btnAddQuestion"
+                        android:layout_gravity="bottom|start"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10pxv"
+                        android:layout_width="match_parent"
+                        android:paddingBottom="@dimen/_16pxv"
+                        android:paddingEnd="@dimen/_30pxh"
+                        android:paddingStart="@dimen/_30pxh"
+                        android:paddingTop="@dimen/_16pxv"
+                        android:singleLine="true"
+                        android:text="@string/lbl_add_question"
+                        android:textAllCaps="false"
+                        style="@style/btnSolidRounded_4" tools:text="@string/lbl_add_question"/>
+                </FrameLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</layout>

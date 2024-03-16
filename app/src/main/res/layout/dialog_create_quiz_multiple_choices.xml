@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="createQuizMultipleChoicesVM" type="com.application.app.modules.createquizmultiplechoices.data.viewmodel.CreateQuizMultipleChoicesVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linear421CreateQu"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStyledeep_purple_400">
+        <LinearLayout android:gravity="center_horizontal"
+            android:id="@+id/linearAddAnswer"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical" style="@style/groupStylewhite_8">
+            <LinearLayout android:gravity="start"
+                android:id="@+id/linearAddAnswer1"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_16pxh"
+                android:layout_marginStart="@dimen/_16pxh"
+                android:layout_marginTop="@dimen/_24pxv"
+                android:layout_width="match_parent" android:orientation="vertical">
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtAddAnswer"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_10pxh"
+                    android:layout_width="wrap_content"
+                    android:singleLine="true"
+                    android:text="@{createQuizMultipleChoicesVM.createQuizMultipleChoicesModel.txtAddAnswer}"
+                    style="@style/txtRubikmedium16_1" tools:text="@string/lbl_add_answer2"/>
+                <FrameLayout android:id="@+id/frameGroup1938"
+                    android:layout_height="@dimen/_104pxv"
+                    android:layout_marginTop="@dimen/_8pxv"
+                    android:layout_width="@dimen/_311pxh" style="@style/groupStyledeep_purple_50cornerRadius">
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtAddAnswer1"
+                        android:layout_gravity="top|start"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_16pxv"
+                        android:layout_marginEnd="@dimen/_25pxh"
+                        android:layout_marginStart="@dimen/_25pxh"
+                        android:layout_marginTop="@dimen/_16pxv"
+                        android:layout_width="wrap_content"
+                        android:singleLine="true"
+                        android:text="@{createQuizMultipleChoicesVM.createQuizMultipleChoicesModel.txtAddAnswer1}"
+                        style="@style/txtRubikregular14" tools:text="@string/lbl_add_answer"/>
+                    <View android:background="@color/deep_purple_400"
+                        android:id="@+id/lineLine6"
+                        android:layout_gravity="top|start"
+                        android:layout_height="@dimen/_20pxv"
+                        android:layout_marginBottom="@dimen/_16pxv"
+                        android:layout_marginEnd="@dimen/_24pxh"
+                        android:layout_marginStart="@dimen/_24pxh"
+                        android:layout_marginTop="@dimen/_16pxv" android:layout_width="@dimen/_2pxh"/>
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/linearCorrectanswer"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_24pxv"
+                android:layout_marginEnd="@dimen/_16pxh"
+                android:layout_marginStart="@dimen/_16pxh"
+                android:layout_marginTop="@dimen/_8pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtCorrectAnswer"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_8pxv"
+                    android:layout_marginStart="@dimen/_8pxh"
+                    android:layout_marginTop="@dimen/_8pxv"
+                    android:layout_weight="0.73"
+                    android:layout_width="0dp" android:singleLine="true"
+                    android:text="@{createQuizMultipleChoicesVM.createQuizMultipleChoicesModel.txtCorrectAnswer}"
+                    style="@style/txtGraphikmedium16" tools:text="@string/lbl_correct_answer2"/>
+
+                <com.google.android.material.switchmaterial.SwitchMaterial
+                    android:id="@+id/switchMaterialGroup313"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_8pxv"
+                    android:layout_marginEnd="@dimen/_8pxh"
+                    android:layout_marginStart="@dimen/_149pxh"
+                    android:layout_marginTop="@dimen/_8pxv"
+                    android:layout_weight="0.27" android:layout_width="0dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

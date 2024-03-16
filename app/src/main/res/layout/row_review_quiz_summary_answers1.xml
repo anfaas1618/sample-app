@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="reviewQuizSummaryAnswers1RowModel" type="com.application.app.modules.reviewquizsummaryanswers.data.model.ReviewQuizSummaryAnswers1RowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linear"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:orientation="horizontal">
+        <LinearLayout android:gravity="center_horizontal"
+            android:id="@+id/linearEllipse76"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_36pxv"
+            android:layout_weight="0.11" android:layout_width="0dp"
+            android:orientation="vertical" style="@style/groupStylewhite_3">
+            <TextView android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:id="@+id/txt1"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/_4pxv"
+                android:layout_marginEnd="@dimen/_12pxh"
+                android:layout_marginStart="@dimen/_12pxh"
+                android:layout_marginTop="@dimen/_4pxv"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:text="@{reviewQuizSummaryAnswers1RowModel.txt1}"
+                style="@style/txtRubikmedium16_2" tools:text="@string/lbl_1"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearGroup1770"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_weight="0.89" android:layout_width="0dp" android:orientation="vertical">
+            <LinearLayout android:id="@+id/linearGroup1769"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <TextView android:id="@+id/txtCanYouNameTh"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:layout_width="0dp"
+                    android:text="@{reviewQuizSummaryAnswers1RowModel.txtCanYouNameTh}"
+                    style="@style/txtGraphikmedium14_1" tools:text="@string/msg_can_you_name_th"/>
+                <ImageView android:id="@+id/imageIconInfo"
+                    android:layout_height="@dimen/_24pxh"
+                    android:layout_marginBottom="@dimen/_16pxv"
+                    android:layout_marginStart="@dimen/_8pxh"
+                    android:layout_width="@dimen/_24pxh"
+                    android:scaleType="fitXY" android:src="@drawable/img_iconinfo"/>
+            </LinearLayout>
+            <TextView android:ellipsize="end" android:id="@+id/txt"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_8pxv"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@{reviewQuizSummaryAnswers1RowModel.txt}"
+                style="@style/txtGraphikregular14" tools:text="@string/lbl"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

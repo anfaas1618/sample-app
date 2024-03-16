@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="searchQuizVM" type="com.application.app.modules.searchquiz.data.viewmodel.SearchQuizVM"/>
+    </data>
+    <FrameLayout android:id="@+id/frameGroup2082"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStyledeep_purple_400">
+        <ImageView android:id="@+id/imageBase"
+            android:layout_gravity="bottom|center"
+            android:layout_height="@dimen/_692pxh"
+            android:layout_marginEnd="@dimen/_8pxh"
+            android:layout_marginStart="@dimen/_8pxh"
+            android:layout_marginTop="@dimen/_10pxv"
+            android:layout_width="@dimen/_359pxh"
+            android:scaleType="fitXY" android:src="@drawable/img_base_4"/>
+        <LinearLayout android:id="@+id/linearGroup2081"
+            android:layout_gravity="top|center"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_60pxv"
+            android:layout_marginEnd="@dimen/_24pxh"
+            android:layout_marginStart="@dimen/_24pxh"
+            android:layout_marginTop="@dimen/_60pxv"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbarToolbar"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" app:contentInsetStart="0dp">
+                <LinearLayout android:id="@+id/linearDiscover"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="@dimen/_113pxh"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <ImageView android:id="@+id/imageIcon"
+                        android:layout_height="@dimen/_24pxh"
+                        android:layout_marginBottom="@dimen/_6pxv"
+                        android:layout_marginTop="@dimen/_6pxv"
+                        android:layout_width="@dimen/_24pxh"
+                        android:scaleType="fitXY" android:src="@drawable/img_icon"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtDiscover"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_89pxh"
+                        android:layout_weight="0.81"
+                        android:layout_width="0dp"
+                        android:singleLine="true"
+                        android:text="@{searchQuizVM.searchQuizModel.txtDiscover}"
+                        style="@style/txtRubikmedium24" tools:text="@string/lbl_discover"/>
+                </LinearLayout>
+            </androidx.appcompat.widget.Toolbar>
+            <ScrollView android:clipToPadding="false"
+                android:fillViewport="true"
+                android:id="@+id/scrollViewScrollview"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_16pxv"
+                android:layout_weight="1" android:layout_width="match_parent">
+                <LinearLayout android:gravity="start"
+                    android:id="@+id/linear32SearchQuiz"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" android:orientation="vertical">
+                    <EditText
+                        android:background="@drawable/rectangle_bg_gray_900_68_radius_20"
+                        android:drawablePadding="@dimen/_10pxh"
+                        android:drawableStart="@drawable/img_icon_69"
+                        android:ellipsize="end"
+                        android:hint="@string/msg_quiz_categorie"
+                        android:id="@+id/etQuizCategorie"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:paddingBottom="@dimen/_20pxv"
+                        android:paddingStart="@dimen/_16pxh"
+                        android:paddingTop="@dimen/_20pxv"
+                        android:singleLine="true"
+                        android:text="@={searchQuizVM.searchQuizModel.etQuizCategorieValue}"
+                        android:textColorHint="@color/bluegray_101" style="@style/etSolidRounded_2"/>
+                    <LinearLayout android:gravity="start"
+                        android:id="@+id/linearGroup2075"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_64pxv"
+                        android:layout_width="match_parent" android:orientation="vertical">
+                        <LinearLayout android:id="@+id/linearGroup2073"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent" android:orientation="vertical">
+                            <LinearLayout
+                                android:id="@+id/linearGroup2072"
+                                android:layout_height="wrap_content"
+                                android:layout_width="match_parent" android:orientation="horizontal">
+                                <TextView android:ellipsize="end"
+                                    android:id="@+id/txtTop"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/_15pxh"
+                                    android:layout_weight="0.15"
+                                    android:layout_width="0dp"
+                                    android:singleLine="true"
+                                    android:text="@{searchQuizVM.searchQuizModel.txtTop}"
+                                    style="@style/txtRubikbold14" tools:text="@string/lbl_top"/>
+                                <TextView android:ellipsize="end"
+                                    android:id="@+id/txtQuiz"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/_39pxh"
+                                    android:layout_weight="0.17"
+                                    android:layout_width="0dp"
+                                    android:singleLine="true"
+                                    android:text="@{searchQuizVM.searchQuizModel.txtQuiz}"
+                                    style="@style/txtRubikregular14" tools:text="@string/lbl_quiz"/>
+                                <TextView android:ellipsize="end"
+                                    android:id="@+id/txtCategories"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/_41pxh"
+                                    android:layout_weight="0.41"
+                                    android:layout_width="0dp"
+                                    android:singleLine="true"
+                                    android:text="@{searchQuizVM.searchQuizModel.txtCategories}"
+                                    style="@style/txtRubikregular14" tools:text="@string/lbl_categories"/>
+                                <TextView android:ellipsize="end"
+                                    android:id="@+id/txtFriends"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="@dimen/_16pxh"
+                                    android:layout_marginStart="@dimen/_41pxh"
+                                    android:layout_weight="0.28"
+                                    android:layout_width="0dp"
+                                    android:singleLine="true"
+                                    android:text="@{searchQuizVM.searchQuizModel.txtFriends}"
+                                    style="@style/txtRubikregular14" tools:text="@string/lbl_friends"/>
+                            </LinearLayout>
+                            <View
+                                android:background="@drawable/rectangle_bg_deep_purple_400_radius_3"
+                                android:id="@+id/viewEllipse18"
+                                android:layout_gravity="start"
+                                android:layout_height="@dimen/_6pxh"
+                                android:layout_marginEnd="@dimen/_22pxh"
+                                android:layout_marginStart="@dimen/_22pxh"
+                                android:layout_marginTop="@dimen/_8pxv" android:layout_width="@dimen/_6pxh"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:id="@+id/linearRecentSearches"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_24pxv"
+                            android:layout_width="match_parent" android:orientation="horizontal">
+                            <TextView android:ellipsize="end"
+                                android:id="@+id/txtRecentSearches"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.75"
+                                android:layout_width="0dp"
+                                android:singleLine="true"
+                                android:text="@{searchQuizVM.searchQuizModel.txtRecentSearches}"
+                                style="@style/txtRubikmedium20" tools:text="@string/lbl_recent_searches"/>
+                            <TextView android:ellipsize="end"
+                                android:id="@+id/txtClearAll"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_6pxv"
+                                android:layout_marginStart="@dimen/_109pxh"
+                                android:layout_marginTop="@dimen/_2pxv"
+                                android:layout_weight="0.25"
+                                android:layout_width="0dp"
+                                android:singleLine="true"
+                                android:text="@{searchQuizVM.searchQuizModel.txtClearAll}"
+                                style="@style/txtRubikmedium14_4" tools:text="@string/lbl_clear_all"/>
+                        </LinearLayout>
+                        <LinearLayout android:gravity="start"
+                            android:id="@+id/linearGroup2074"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_16pxv"
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal" style="@style/groupStylewhite_6">
+                            <ImageView android:id="@+id/imageFrame"
+                                android:layout_height="@dimen/_64pxh"
+                                android:layout_marginBottom="@dimen/_8pxv"
+                                android:layout_marginStart="@dimen/_8pxh"
+                                android:layout_marginTop="@dimen/_8pxv"
+                                android:layout_width="@dimen/_64pxh"
+                                android:scaleType="fitXY" android:src="@drawable/img_frame_2"/>
+                            <LinearLayout android:gravity="start"
+                                android:id="@+id/linearQuiz"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_16pxv"
+                                android:layout_marginStart="@dimen/_16pxh"
+                                android:layout_marginTop="@dimen/_16pxv"
+                                android:layout_weight="0.68"
+                                android:layout_width="0dp" android:orientation="vertical">
+                                <TextView android:ellipsize="end"
+                                    android:id="@+id/txtStatisticsMath"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="match_parent"
+                                    android:singleLine="true"
+                                    android:text="@{searchQuizVM.searchQuizModel.txtStatisticsMath}"
+                                    style="@style/txtRubikmedium16_1" tools:text="@string/msg_statistics_math"/>
+                                <TextView android:ellipsize="end"
+                                    android:id="@+id/txtMath12Quizz"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_6pxv"
+                                    android:layout_width="match_parent"
+                                    android:singleLine="true"
+                                    android:text="@{searchQuizVM.searchQuizModel.txtMath12Quizz}"
+                                    style="@style/txtRubikregular12" tools:text="@string/msg_math_12_quizz"/>
+                            </LinearLayout>
+                            <ImageView android:id="@+id/imageIcon1"
+                                android:layout_height="@dimen/_24pxh"
+                                android:layout_marginBottom="@dimen/_28pxv"
+                                android:layout_marginEnd="@dimen/_16pxh"
+                                android:layout_marginStart="@dimen/_16pxh"
+                                android:layout_marginTop="@dimen/_28pxv"
+                                android:layout_width="@dimen/_24pxh"
+                                android:scaleType="fitXY" android:src="@drawable/img_icon_70"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </FrameLayout>
+</layout>

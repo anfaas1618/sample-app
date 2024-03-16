@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <array name="range_slider_values">
+        <item>29</item>
+        <item>71</item>
+    </array>
+    <array name="range_slider_values1">
+        <item>38</item>
+        <item>62</item>
+    </array>
+    <array name="range_slider_values2">
+        <item>29</item>
+        <item>71</item>
+    </array>
+    <array name="range_slider_values3">
+        <item>0</item>
+        <item>100</item>
+    </array>
+    <array name="range_slider_values4">
+        <item>12</item>
+        <item>87</item>
+    </array>
+    <array name="range_slider_values5">
+        <item>0</item>
+        <item>100</item>
+    </array>
+    <array name="range_slider_values6">
+        <item>0</item>
+        <item>100</item>
+    </array>
+    <array name="range_slider_values7">
+        <item>0</item>
+        <item>100</item>
+    </array>
+    <array name="range_slider_values8">
+        <item>0</item>
+        <item>100</item>
+    </array>
+    <array name="range_slider_values9">
+        <item>0</item>
+        <item>100</item>
+    </array>
+    <array name="range_slider_values10">
+        <item>0</item>
+        <item>100</item>
+    </array>
+    <array name="range_slider_values11">
+        <item>0</item>
+        <item>100</item>
+    </array>
+    <array name="range_slider_values12">
+        <item>0</item>
+        <item>100</item>
+    </array>
+    <array name="range_slider_values13">
+        <item>12</item>
+        <item>87</item>
+    </array>
+    <array name="range_slider_values14">
+        <item>29</item>
+        <item>71</item>
+    </array>
+    <array name="range_slider_values15">
+        <item>0</item>
+        <item>100</item>
+    </array>
+    <array name="range_slider_values16">
+        <item>0</item>
+        <item>100</item>
+    </array>
+    <array name="range_slider_values17">
+        <item>0</item>
+        <item>100</item>
+    </array>
+    <array name="range_slider_values18">
+        <item>0</item>
+        <item>100</item>
+    </array>
+    <array name="range_slider_values19">
+        <item>0</item>
+        <item>100</item>
+    </array>
+    <array name="range_slider_values20">
+        <item>0</item>
+        <item>100</item>
+    </array>
+    <array name="range_slider_values21">
+        <item>0</item>
+        <item>100</item>
+    </array>
+    <array name="range_slider_values22">
+        <item>0</item>
+        <item>100</item>
+    </array>
+    <array name="range_slider_values23">
+        <item>21</item>
+        <item>79</item>
+    </array>
+    <array name="range_slider_values24">
+        <item>0</item>
+        <item>100</item>
+    </array>
+    <array name="range_slider_values25">
+        <item>0</item>
+        <item>100</item>
+    </array>
+    <array name="range_slider_values26">
+        <item>0</item>
+        <item>100</item>
+    </array>
+    <array name="range_slider_values27">
+        <item>0</item>
+        <item>100</item>
+    </array>
+    <array name="range_slider_values28">
+        <item>0</item>
+        <item>100</item>
+    </array>
+    <array name="range_slider_values29">
+        <item>0</item>
+        <item>100</item>
+    </array>
+    <array name="range_slider_values30">
+        <item>0</item>
+        <item>100</item>
+    </array>
+    <array name="range_slider_values31">
+        <item>0</item>
+        <item>100</item>
+    </array>
+    <array name="range_slider_values32">
+        <item>0</item>
+        <item>100</item>
+    </array>
+    <array name="range_slider_values33">
+        <item>0</item>
+        <item>100</item>
+    </array>
+    <array name="range_slider_values34">
+        <item>0</item>
+        <item>100</item>
+    </array>
+    <array name="range_slider_values35">
+        <item>0</item>
+        <item>100</item>
+    </array>
+    <array name="range_slider_values36">
+        <item>0</item>
+        <item>100</item>
+    </array>
+    <array name="range_slider_values37">
+        <item>0</item>
+        <item>100</item>
+    </array>
+    <array name="range_slider_values38">
+        <item>21</item>
+        <item>79</item>
+    </array>
+    <array name="range_slider_values39">
+        <item>0</item>
+        <item>100</item>
+    </array>
+    <array name="range_slider_values40">
+        <item>0</item>
+        <item>100</item>
+    </array>
+    <array name="range_slider_values41">
+        <item>38</item>
+        <item>62</item>
+    </array>
+    <array name="range_slider_values42">
+        <item>0</item>
+        <item>100</item>
+    </array>
+    <array name="range_slider_values43">
+        <item>0</item>
+        <item>100</item>
+    </array>
+    <array name="range_slider_values44">
+        <item>0</item>
+        <item>100</item>
+    </array>
+    <array name="range_slider_values45">
+        <item>12</item>
+        <item>87</item>
+    </array>
+</resources>

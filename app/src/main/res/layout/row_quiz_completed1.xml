@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="quizCompleted1RowModel" type="com.application.app.modules.quizcompleted.data.model.QuizCompleted1RowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearGroup"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:orientation="horizontal">
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearCorrectAnswers"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.58" android:layout_width="0dp" android:orientation="vertical">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtCORRECTANSWER"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:text="@{quizCompleted1RowModel.txtCORRECTANSWER}"
+                android:textAllCaps="true"
+                style="@style/txtRubikmedium12" tools:text="@string/lbl_correct_answer"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txt7Questions"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_2pxh"
+                android:layout_marginTop="@dimen/_8pxv"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:text="@{quizCompleted1RowModel.txt7Questions}"
+                style="@style/txtRubikmedium20" tools:text="@string/lbl_7_questions"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearCompletion"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_80pxh"
+            android:layout_weight="0.42" android:layout_width="0dp" android:orientation="vertical">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtCOMPLETION"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:text="@{quizCompleted1RowModel.txtCOMPLETION}"
+                android:textAllCaps="true"
+                style="@style/txtRubikmedium12" tools:text="@string/lbl_completion"/>
+            <TextView android:ellipsize="end" android:id="@+id/txt80"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_8pxv"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:text="@{quizCompleted1RowModel.txt80}"
+                style="@style/txtRubikmedium20" tools:text="@string/lbl_80"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

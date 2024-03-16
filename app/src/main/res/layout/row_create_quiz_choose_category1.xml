@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="createQuizChooseCategory1RowModel" type="com.application.app.modules.createquizchoosecategory.data.model.CreateQuizChooseCategory1RowModel"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearName"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylepink_1">
+        <ImageView android:id="@+id/imageIcon"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_48pxh"
+            android:layout_marginEnd="@dimen/_49pxh"
+            android:layout_marginStart="@dimen/_49pxh"
+            android:layout_marginTop="@dimen/_16pxv"
+            android:layout_width="@dimen/_48pxh"
+            android:scaleType="fitXY" android:src="@drawable/img_icon_60"/>
+        <TextView android:ellipsize="end" android:id="@+id/txtMath"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_49pxh"
+            android:layout_marginStart="@dimen/_49pxh"
+            android:layout_marginTop="@dimen/_8pxv"
+            android:layout_width="wrap_content"
+            android:singleLine="true"
+            android:text="@{createQuizChooseCategory1RowModel.txtMath}"
+            style="@style/txtRubikmedium16" tools:text="@string/lbl_math"/>
+        <TextView android:ellipsize="end" android:id="@+id/txt21Quizzes"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_16pxv"
+            android:layout_marginEnd="@dimen/_48pxh"
+            android:layout_marginStart="@dimen/_49pxh"
+            android:layout_marginTop="@dimen/_2pxv"
+            android:layout_width="wrap_content"
+            android:singleLine="true"
+            android:text="@{createQuizChooseCategory1RowModel.txt21Quizzes}"
+            style="@style/txtRubikregular12_1" tools:text="@string/lbl_21_quizzes"/>
+    </LinearLayout>
+</layout>

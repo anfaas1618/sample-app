@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="onboarding2VM" type="com.application.app.modules.onboarding2.data.viewmodel.Onboarding2VM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearGroup2193"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStyledeep_purple_400">
+        <FrameLayout android:gravity="start"
+            android:id="@+id/frameGroup2194"
+            android:layout_height="@dimen/_796pxv"
+            android:layout_marginBottom="@dimen/_16pxv" android:layout_width="match_parent">
+            <FrameLayout android:id="@+id/frameGroup2196"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_796pxv" android:layout_width="match_parent">
+                <FrameLayout android:id="@+id/frameGroup2198"
+                    android:layout_gravity="top|start"
+                    android:layout_height="@dimen/_738pxv"
+                    android:layout_marginBottom="@dimen/_10pxv" android:layout_width="match_parent">
+                    <ImageView android:id="@+id/imageO"
+                        android:layout_gravity="start"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:scaleType="fitXY" android:src="@drawable/img_o_4"/>
+                    <ImageView android:id="@+id/imageIllustration"
+                        android:layout_gravity="top|end"
+                        android:layout_height="@dimen/_380pxh"
+                        android:layout_marginBottom="@dimen/_122pxv"
+                        android:layout_marginStart="@dimen/_10pxh"
+                        android:layout_marginTop="@dimen/_122pxv"
+                        android:layout_width="@dimen/_351pxh"
+                        android:scaleType="fitXY" android:src="@drawable/img_illustration_7"/>
+                </FrameLayout>
+                <LinearLayout android:id="@+id/linearGroup2191"
+                    android:layout_gravity="bottom|center"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_16pxh"
+                    android:layout_marginStart="@dimen/_16pxh"
+                    android:layout_marginTop="@dimen/_10pxv"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical" style="@style/groupStylewhite_A700cornerRadius">
+                    <TextView android:gravity="center_horizontal"
+                        android:id="@+id/txtFindQuizzesTo"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_16pxh"
+                        android:layout_marginStart="@dimen/_16pxh"
+                        android:layout_marginTop="@dimen/_16pxv"
+                        android:layout_width="match_parent"
+                        android:text="@{onboarding2VM.onboarding2Model.txtFindQuizzesTo}"
+                        style="@style/txtRubikmedium24_3" tools:text="@string/msg_find_quizzes_to"/>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:ellipsize="end" android:gravity="center"
+                        android:id="@+id/btnSignUp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_16pxh"
+                        android:layout_marginStart="@dimen/_16pxh"
+                        android:layout_marginTop="@dimen/_24pxv"
+                        android:layout_width="match_parent"
+                        android:paddingBottom="@dimen/_16pxv"
+                        android:paddingEnd="@dimen/_30pxh"
+                        android:paddingStart="@dimen/_30pxh"
+                        android:paddingTop="@dimen/_16pxv"
+                        android:singleLine="true"
+                        android:text="@string/lbl_sign_up"
+                        android:textAllCaps="false"
+                        style="@style/btnSolidRounded_4" tools:text="@string/lbl_sign_up"/>
+                    <TextView android:ellipsize="end"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/txtAlreadyHaveAn"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_16pxh"
+                        android:layout_marginVertical="@dimen/_16pxv"
+                        android:layout_width="match_parent"
+                        android:singleLine="true"
+                        android:text="@{onboarding2VM.onboarding2Model.txtAlreadyHaveAn}"
+                        style="@style/txtGraphikregular16_1" tools:text="@string/msg_already_have_an"/>
+                </LinearLayout>
+            </FrameLayout>
+
+            <com.asksira.loopingviewpager.indicator.CustomShapePagerIndicator
+                android:id="@+id/indicatorGroup410"
+                android:layout_gravity="bottom|center"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_248pxv"
+                android:layout_marginEnd="@dimen/_159pxh"
+                android:layout_marginStart="@dimen/_159pxh"
+                android:layout_marginTop="@dimen/_248pxv"
+                android:layout_width="wrap_content"
+                app:drawable_normal="@drawable/indicator_selected_bg_white_a700_radius_8"
+                app:drawable_selected="@drawable/indicator_selected_bg_white_a700_radius_8" app:indicator_size="@dimen/_8pxh"/>
+        </FrameLayout>
+    </LinearLayout>
+</layout>
